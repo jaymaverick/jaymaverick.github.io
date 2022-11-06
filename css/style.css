@@ -5,7 +5,28 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 455px) {
+    #navbutton1 {
+        display: none;
+    }
+    #navbutton2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 455px) {
+    #navbutton2 {
+        display: none;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+}
+
+
+
 .hero{
+    min-width: 325px;
     height: 100vh;
     width: 100vw;
     background-color: black;
@@ -14,7 +35,8 @@
     background-position: right top;
 }
 
-body{overflow: hidden;}
+body {overflow: hidden;
+}
 
 nav{
     background-color: rgb(27, 27, 27);
@@ -36,7 +58,6 @@ span{
 }
 nav ul li{
     list-style-type: none;
-    display: inline-block;
     padding: 10px 25px;
 }
 nav ul li a{
