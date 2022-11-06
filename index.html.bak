@@ -29,7 +29,7 @@
         <div class="aboutme">
             <section id="aboutme">
                 <div class="main">
-                    <!--<img src="img/aboutme.jpg">-->
+                    <img src="img/aboutme.jpg">
                 </div>
             </section>
         </div>
