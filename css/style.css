@@ -3,7 +3,6 @@
     margin: 0;
     font-family: Trebuchet MS, sans-serif;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .hero{
@@ -12,9 +11,10 @@
     background-color: black;
     background-image: url(../img/jayhero3.jpg);
     background-size: cover;
-    background-position: top;
-    
+    background-position: right top;
 }
+
+body{overflow: hidden;}
 
 nav{
     background-color: rgb(27, 27, 27);
