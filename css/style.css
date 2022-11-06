@@ -9,21 +9,7 @@
     #navbutton1 {
         display: none;
     }
-    #navbutton2 {
-        display: block;
-    }
 }
-
-@media screen and (min-width: 455px) {
-    #navbutton2 {
-        display: none;
-    }
-    nav ul li{
-        display: inline-block;
-    }
-}
-
-
 
 .hero{
     min-width: 325px;
@@ -59,6 +45,7 @@ span{
 nav ul li{
     list-style-type: none;
     padding: 10px 25px;
+    display: inline-block;
 }
 nav ul li a{
     color: white;
