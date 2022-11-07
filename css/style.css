@@ -9,10 +9,13 @@
     #navbutton1 {
         display: none;
     }
+    .aboutme {
+        display: block;
+    }
 }
 
 .hero{
-    min-width: 325px;
+    
     height: 100vh;
     width: 100vw;
     background-color: black;
@@ -25,6 +28,7 @@ body {
     overflow-x: hidden;
     background-color: rgb(27, 27, 27);
     color: white;
+    min-width: 325px;
 }
 
 nav{
@@ -103,7 +107,11 @@ h3{
 
 .h3section {text-align: center;}
 
-.aboutme, .portfolio-flex {display: flex;}
+@media screen and (min-width: 455px){
+    .aboutme, .portfolio-flex {
+        display: flex;
+    }
+}
 
 .aboutmeleft img {
     margin: 20px 20px 20px 20px;
@@ -116,9 +124,8 @@ h3{
 
 .portfolio-flex {
     justify-content: center;
-    flex-wrap: wrap;
     gap: 30px;
-
+    flex-wrap: wrap;
 }
 
 .portfolio {
