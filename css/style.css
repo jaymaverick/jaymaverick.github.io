@@ -92,13 +92,13 @@ h1{
 }
 #heroh3{
     border-left: 2px solid #ea003e;
+    padding-left: 20px;
 }
 
 h3{
     color: white;
     font-size: 25px;
     margin-bottom: 40px;
-    padding-left: 20px;
 }
 
 .h3section {text-align: center;}
@@ -115,13 +115,19 @@ h3{
 .aboutmeright {margin: 20px 20px 0 20px;}
 
 .portfolio-flex {
-    margin: 20px;
     justify-content: center;
-    max-width: max-content;
     flex-wrap: wrap;
     gap: 30px;
 
 }
+
+.portfolio {
+    background-color: #3d0010;
+}
+
+.portfoliowrap, .contactwrap {padding: 20px 20px 40px 20px;}
+
+.aboutme, .portfolio, .contact{border-top: 2px solid black;}
 
 .portfolio img {max-width: 300px;}
 
