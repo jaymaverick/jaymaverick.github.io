@@ -3,8 +3,8 @@ title: Jay
 subtitle: Pitkänen
 email: youremailaddress@gmail.com
 description: ... and Community Builder, AI Marketing Manager, JavaScript Hobbyist
-baseurl: # the subpath of your site, e.g. /blog
-url: https://jaymaverick.github.io # the base hostname & protocol for your site
+# baseurl: # the subpath of your site, e.g. /blog
+url: "https://jaymaverick.github.io" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
