@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Offline Community Manager
-description: meetups and creating community in new cities
+title: Build Local Communities
+description: A likeminded community can make any city feel like home
 image: assets/images/pic02.jpg
 nav-menu: true
 ---

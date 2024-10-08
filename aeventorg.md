@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Event Organizer / Speaker
-description: events organized and speaking engagements
+title: Arrange Events / Speaking Gigs
+description: Tiny boardgame nights to huge SEO conferences to speaking gigs
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
