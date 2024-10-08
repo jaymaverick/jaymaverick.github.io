@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Remote Office Culture
+title: Increase Remote Work Productivity
 description: Borrowing Gitlab's Remote Work Culture
 image: assets/images/pic11.jpg
 nav-menu: true
