@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Build Local Communities
-description: A likeminded community can make any city feel like home
+description: Any city can feel like home when you find the right people
 image: assets/images/pic02.jpg
 nav-menu: true
 ---
