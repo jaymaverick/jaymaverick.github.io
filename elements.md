@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Online Community Manager
+description: copywriting, entrepreneurs, youtube, relationships
 image: assets/images/pic01.jpg
 nav-menu: true
 ---

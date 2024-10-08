@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remote Office Community Manager
-description: Lorem ipsum dolor est
+description: Culture and activities for remote work offices
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

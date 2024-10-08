@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Event Organizer / Speaker
-description: Lorem ipsum dolor est
+description: events organized and speaking engagements
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

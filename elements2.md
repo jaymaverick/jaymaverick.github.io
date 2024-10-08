@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Offline Community Manager
+description: meetups and creating community in new cities
 image: assets/images/pic02.jpg
 nav-menu: true
 ---
