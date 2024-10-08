@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Building Remote Office Culture
-description: Culture and activities for remote work offices
+title: Remote Office Culture
+description: Borrowing Gitlab's Remote Work Culture
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

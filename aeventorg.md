@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arrange Events / Speaking Gigs
-description: Tiny boardgame nights to huge SEO conferences to speaking gigs
+description: Boardgame nights, SEO conferences, Speaking gigs
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

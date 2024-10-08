@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Build Local Communities
-description: Any city can feel like home when you find the right people
+description: Any city can feel like home
 image: assets/images/pic02.jpg
 nav-menu: true
 ---

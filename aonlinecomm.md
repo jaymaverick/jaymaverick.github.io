@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Managing Online Communities
-description: copywriting, entrepreneurs, youtube, relationships
+title: Build Online Communities
+description: 20k+ on Facebook and Youtube
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
