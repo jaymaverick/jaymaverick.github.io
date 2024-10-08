@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'I Create Communities For Geeks'
+landing-title: "Hi I'm Jay, Communications Geek"
 description: null
 image: null
 author: null
