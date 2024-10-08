@@ -1,6 +1,6 @@
 # site settings
-title: Jay Pitkänenn
-subtitle: by Jay
+title: Jay
+subtitle: Pitkänen
 email: youremailaddress@gmail.com
 description: A developer, community manager, marketer blah blah
 baseurl: "" # the subpath of your site, e.g. /blog
