@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Online Community Manager
 image: assets/images/pic01.jpg
 nav-menu: true
 ---

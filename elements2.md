@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements2
+title: Offline Community Manager
 image: assets/images/pic02.jpg
 nav-menu: true
 ---

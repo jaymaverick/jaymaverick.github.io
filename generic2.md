@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Event Organizer / Speaker
+title: Remote Office Community Manager
 description: Lorem ipsum dolor est
 image: assets/images/pic11.jpg
 nav-menu: true
