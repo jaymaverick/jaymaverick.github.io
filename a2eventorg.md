@@ -16,7 +16,7 @@ nav-menu: true
 			<h1>Event Organization and Hosting</h1>
 		</header>
 
-<p>I'm not a major event organizer, but I've had the privilege of helping with a handful of big events.</p>
+<p>I'm not a major event organizer, but I've had the privilege of helping with a handful of big events. Here are some of the more recent ones:</p>
 
 <h2 id="content">2023 SEO Estonia, Tallinn</h2>
 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
@@ -25,63 +25,54 @@ nav-menu: true
 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 
 <!-- Content -->
-<h2 id="content">Location Independent Communities</h2>
-<p>I'm not a major event organizer, but I've had the privilege of helping with a handful of big events.</p>
+<h2 id="content">Smaller Events</h2>
+<p>My favorite things are the smaller events that we organize through various communities. It's an easy way to get people to attend, and a low investment for anyone wanting to give a short talk or host a workshop. Here are a few memorable events I organized.</p>
 
 <dl>
-	<dt>Meet people on the street</dt>
+    <dt>2019 Start a Business Today, Zagreb</dt>
 	<dd>
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
 	</dd>
-	<dt>co working spaces</dt>
+    <dt>2018 Link Building For Affiliate Blogs, Barcelona</dt>
 	<dd>
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
 	</dd>
-	<dt>hobbies</dt>
+    <dt>2018 Build a Wordpress Site From Scratch - Barcelona</dt>
 	<dd>
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>Budapest community of english speaking people</dt>
+	</dd>	
+	<dt>2017 - Pop-up Restaurant in Portugal</dt>
 	<dd>
 		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>toastmasters</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>nintendo hobbyists</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>dancing</dt>
-</dl>
-
-<h2 id="content">Professional Communities</h2>
-<p>I love to teach and learn. That's why one of the first things I do in every city is find communities related to Wordpress development, Javascript, AI tools or whatever project I'm working on at the moment.</p>
-
-<dl>
-	<dt>Wordpress Community Barcelona</dt>
-	<dd>
-		<p>local groups, activities, turned to marketing "expert" in barcelona</p>
 	</dd>
 </dl>
 
-<h2 id="content">Online Communities</h2>
-<p>As a marketer, I have to know how to create and manage audiences online. While I'm much more comfortable meeting up with people in real life, some of my coaching endeavours have resulted in online groups of decent size.</p>
+<h2 id="content">Speaking Events</h2>
+<p>I'm not a naturally outgoing guy, but I love to be able to express myself and communicate my ideas. That's why I practice speaking as often as I can. Here are some of my favorite talks:</p>
 
 <dl>
-	<dt>Heartful Entrepreneur Community, Facebook 5k</dt>
+	<dt>2024 Communication For IT Project Success hive/piscine coding school</dt>
 	<dd>
-		<p>5k at its height mentoring entrepreneurs - facebook group for freelancers and copywriters who are fiercely independent and want to do their own thing</p>
+		<p>Here's me in Helsinki talking about communication within a software engineering project.</p>
+	</dd>
+    <dt>2022 Client Acquisition For Freelancers, Helsinki</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+    <dt>2021 Client Acquisition For Freelancers, Budapest</dt>
+	<dd>
+		<p>Here's me in Budapest talking about finding clients. </p>
+	</dd>
+    <dt>2021 Speaking and Stage Fright, Pärnu University</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+    <dt>2020 Psychology and relationship dynamics, Helsinki</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
 	</dd>
 </dl>
 
-<dl>
-	<dt>Youtube Channel For Introvert Relationship Advice</dt>
-	<dd>
-		<p>introvert people struggling with healthy relationships</p>
-	</dd>
-</dl>
 <!-- Image -->
 <h3>Image</h3>
 
