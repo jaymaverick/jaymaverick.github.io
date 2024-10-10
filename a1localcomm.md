@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Remote/Local Community Building 
-description: Any City Can Feel Like Home
+description: How To Make Any City Feel Like Home
 image: assets/images/pic02.jpg
 nav-menu: true
 ---
@@ -18,43 +18,51 @@ nav-menu: true
 
 <!-- Content -->
 <h2 id="content">Location Independent Communities</h2>
-<p>I love to travel. Sometimes I end up in a strange city all by myself, knowing absolutely no one. That's when I go out to find my community or build it myself. because if i'm interested in something, it's likely someone else is as well.</p>
+<p>I love to travel. Sometimes I end up in a strange city all by myself, knowing absolutely no one. That's when I go out to find my community or build it myself. Because if I'm interested in something, it's likely someone else is as well.</p>
+<p>Finding communities isn't just for my own pleasure, of course. Whenever we move around with my remote team or land in a new city with a group, I'm quickly able to spearhead our integration with the local population. I can find the good restaurants and entertainment, shops and groceries, and the best places to work and meet great co-workers.</p>
+<p>Here are some of my methods for forming communities which work in any mildly developed city.</p>
 
 <dl>
-	<dt>Meet people on the street</dt>
+	<dt>Meet People On The Street</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>This is something highly personal to me. When I started my journey around the world, I didn't know anyone. I had very few professional contacts, practically no friends and no idea what to do with my life. I very literally went out and chatted up complete strangers if they looked interesting. I met some beautiful girls (which obviously this was my main motivation at first), but very soon this very crude and inaccurate way of networking landed me my first real marketing gig. </p>
 	</dd>
-	<dt>co working spaces</dt>
+	<dt>Visit Co-Working Spaces</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>Nowadays, whenever I travel to a new city, I look up the local co-working space. More often than not, co-working spaces are hotspots for entrepreneurs and interesting people. It's a great way to quickly immerse myself into local communities and invite people into my own communities.</p>
 	</dd>
-	<dt>hobbies</dt>
+	<dt>Find Common Hobbies</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>It's surprisingly rare that people would look for friends through common hobbies. Especially people who spend a lot of time on the computer often forget that almost every city has a community for their particular hobby, however rare the hobby might seem. In Zagreb I had a difficult time finding poker players, so I made a deal with a local pub to host a poker evening on Tuesday nights. It was never a problem filling up the table, so eventually they started hosting a game every night. Met some crazy people that way!</p>
+		<p>Poker is quite popular these days, so finding a game isn't difficult. Another somewhat niche-community we created in Budapest was "NES Players Budapest," where we gathered up with a dozen or so people to play old Nintendo games once a week.</p>
 	</dd>
-	<dt>Budapest community of english speaking people</dt>
+	<dt>Find The Local Toastmasters</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>Toastmasters is an international community of people who give speeches to each other. They have a contingent in nearly every city. It's a great way to not just meet people, but keep your socializing skills sharp. Forcing yourself to speak about a topic for 5-10 minutes in front of strangers is a wonderful way to stay non-complacent.</p>
+		<p>If there isn't a Toastmasters to be found, you can easily create a local group. It's a great way to get together with people who love to challenge themselves and grow.</p>
 	</dd>
-	<dt>toastmasters</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>nintendo hobbyists</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>dancing</dt>
 </dl>
 
 <h2 id="content">Professional Communities</h2>
-<p>I love to teach and learn. That's why one of the first things I do in every city is find communities related to Wordpress development, Javascript, AI tools or whatever project I'm working on at the moment.</p>
+<p>When I was working as a freelancer, one of my main ways of getting clients was joining a local community related to Wordpress development, Javascript, AI tools or whatever project I'm working on at the moment.</p>
+<p>Here are some of the communities that we started.</p>
 
 <dl>
-	<dt>Wordpress Community Barcelona</dt>
+	<dt>Digital Marketing Community Barcelona</dt>
 	<dd>
-		<p>local groups, activities, turned to marketing "expert" in barcelona</p>
+		<p>What started as 5 guys meeting up to talk about Wordpress, grew into a local digital marketing meetup. My content marketing expertise was enough to become a sort of local authority on the topic, which lead to a handful of client relationships.</p>
+	</dd>	
+	<dt>Private Investors Budapest</dt>
+	<dd>
+		<p></p>
+	</dd>
+	<dt>Freelance Copywriters of Budapest</dt>
+	<dd>
+		<p></p>
+	</dd>
+	<dt>Digital Marketeers - Budapest</dt>
+	<dd>
+		<p></p>
 	</dd>
 </dl>
 
