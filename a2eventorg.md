@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Event Organizing and Hosting
+title: Event Organization and Hosting
 description: Boardgame nights, SEO conferences, Speaking gigs
 image: assets/images/pic11.jpg
 nav-menu: true
