@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Increase Remote Work Productivity
+title: Remote Work People Management
 description: Borrowing Gitlab's Remote Work Culture
 image: assets/images/pic11.jpg
 nav-menu: true

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI-Powered Marketing Management
+title: AI Marketing Management
 description: Content Marketing Using Latest AI-Tools
 image: assets/images/pic01.jpg
 nav-menu: true
