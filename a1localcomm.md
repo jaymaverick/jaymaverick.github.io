@@ -13,12 +13,68 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>Remote/Local Community Building</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Location Independent Communities</h2>
+<p>I love to travel. Sometimes I end up in a strange city all by myself, knowing absolutely no one. That's when I go out to find my community or build it myself. because if i'm interested in something, it's likely someone else is as well.</p>
+
+<dl>
+	<dt>Meet people on the street</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+	<dt>co working spaces</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+	<dt>hobbies</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+	<dt>Budapest community of english speaking people</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+	<dt>toastmasters</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+	<dt>nintendo hobbyists</dt>
+	<dd>
+		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+	</dd>
+	<dt>dancing</dt>
+</dl>
+
+<h2 id="content">Professional Communities</h2>
+<p>I love to teach and learn. That's why one of the first things I do in every city is find communities related to Wordpress development, Javascript, AI tools or whatever project I'm working on at the moment.</p>
+
+<dl>
+	<dt>Wordpress Community Barcelona</dt>
+	<dd>
+		<p>local groups, activities, turned to marketing "expert" in barcelona</p>
+	</dd>
+</dl>
+
+<h2 id="content">Online Communities</h2>
+<p>As a marketer, I have to know how to create and manage audiences online. While I'm much more comfortable meeting up with people in real life, some of my coaching endeavours have resulted in online groups of decent size.</p>
+
+<dl>
+	<dt>Heartful Entrepreneur Community, Facebook 5k</dt>
+	<dd>
+		<p>5k at its height mentoring entrepreneurs - facebook group for freelancers and copywriters who are fiercely independent and want to do their own thing</p>
+	</dd>
+</dl>
+
+<dl>
+	<dt>Youtube Channel For Introvert Relationship Advice</dt>
+	<dd>
+		<p>introvert people struggling with healthy relationships</p>
+	</dd>
+</dl>
+
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
