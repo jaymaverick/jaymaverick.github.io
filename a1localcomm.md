@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Build Local Communities
-description: Any city can feel like home
+title: Building Remote/Local Communities 
+description: Any City Can Feel Like Home
 image: assets/images/pic02.jpg
 nav-menu: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Build Online Communities
-description: 20k+ on Facebook and Youtube
+title: AI-Powered Marketing Management
+description: Content Marketing Using Latest AI-Tools
 image: assets/images/pic01.jpg
 nav-menu: true
 ---

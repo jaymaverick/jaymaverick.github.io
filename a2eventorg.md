@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Arrange Events / Speaking Gigs
+title: Event Organizing and Hosting
 description: Boardgame nights, SEO conferences, Speaking gigs
 image: assets/images/pic11.jpg
 nav-menu: true
