@@ -44,51 +44,11 @@ nav-menu: true
 	</dd>
 	<dt>LangChain development</dt>
 	<dd>
-		<p></p>
+		<p>I found LangChain through AssemblyAI's videos on the topic. It opened up a whole new world of LLM potential for me, and I do believe there's massive potential there. Speaking with Bobby Peddi from truic.com, who has actually made good progress using LangChain, it seems I was right. I've recently started learning more about the scripting and programming skills required to be able to utilize these systems. </p>
 	</dd>
-	<dt>5. Visit A Fun Restaurant</dt>
+	<dt>Content reation / SEO tools</dt>
 	<dd>
-		<p>You gotta eat, right? Talk to a local guide and find a good restaurant that the locals frequent. Ask the waiter where they go after hours. Ask the bartender what they do for fun. A restaurant is a lively space with all sorts of random visitors, you're bound to find your next adventure here.</p>
-	</dd>
-</dl>
-<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
-<h2 id="content">My Professional Communities</h2>
-<p>When I was working as a freelancer, one of my main ways of getting clients was joining a local community related to Wordpress development, Javascript, AI tools or whatever project I'm working on at the moment.</p>
-<p>Here are some of the communities that we started.</p>
-
-<dl>
-	<dt>Digital Marketing Community Barcelona</dt>
-	<dd>
-		<p>What started as 5 guys meeting up to talk about Wordpress, grew into a local digital marketing meetup. My content marketing expertise was enough to become a sort of local authority on the topic, which lead to a handful of client relationships.</p>
-	</dd>	
-	<dt>Private Investors Budapest</dt>
-	<dd>
-		<p>Spending time at the Impact Hub, I found myself teaching and learning from many entrepreneurs. Among them were private equity investors, looking for startups to invest in. We decided to create a brainstorming group to think of business ideas and possible targets of investment capital.</p>
-	</dd>
-	<dt>Freelance Copywriters of Budapest</dt>
-	<dd>
-		<p>I was trying to make it as a freelance copywriter at one point in time. But I found myself </p>
-	</dd>
-	<dt>Digital Marketeers - Budapest</dt>
-	<dd>
-		<p>Because of my involvement with Thrive Themes, I had a lot of knowledge on the content marketing front. Again, at the Impact Hub, I realized plenty of people needed help in this area. So we started meeting up every week to workshop a particular marketing problem. We became the Marketeers of Budapest.</p>
-	</dd>
-</dl>
-<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
-<h2 id="content">My Online Communities</h2>
-<p>As a marketer, I have to know how to create and manage audiences online. While I'm much more comfortable meeting up with people in real life, some of my coaching endeavours have resulted in online groups of decent size.</p>
-
-<dl>
-	<dt>2017 - Heartful Entrepreneur Community</dt>
-	<dd>
-		<p>During my endeavours to become a 6-figure freelancer, I met a lot of copywriters. While I was supposed to pitch my copywriting skills to potential clients, I found myself coaching existing copywriters instead. I created this group for freelancers and copywriters who are fiercely independent and want to do their own thing. The point was to share advice on building a personally branded business, which is incredibly important in copywriting. The group was a mild success, with 5k people at one time, but has since died down.</p>
-	</dd>
-</dl>
-<dl>
-	<dt>2020 - Youtube Channel For Introvert Relationship Advice</dt>
-	<dd>
-		<p>At one point, I wanted to become a Youtuber to help introverts and developers form healthy relationships, romantic or otherwise. I created 100 videos about relationships and mature emotions. The channel had 2000 subscribers at most, but it was attracting a crowd I didn't feel comfortable with so it's been on hiatus ever since.</p>
-		<p>I feel there's a way to build a relationship coaching community with healthier fundamentals, and I may return to the project if I ever find that way.</p>
+		<p>After almost 10 years creating content for the internet, I'm quite familiar with Ahrefs. I know how to do keyword research and create articles. That part isn't difficult, or much fun to be honest. What I've always been passionate about is helping people learn. Creating community through targeted content. The pieces of content that I created to create a dialog with a specific type of reader have been my most successful ones.</p>
 	</dd>
 </dl>
 </div>
