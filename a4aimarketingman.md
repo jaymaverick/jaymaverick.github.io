@@ -2,7 +2,7 @@
 layout: page
 title: AI Marketing Management
 description: Content Marketing Using Latest AI-Tools
-image: assets/images/pic11.jpg
+image: assets/images/pic02.jpg
 nav-menu: true
 ---
 
@@ -12,124 +12,85 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
+	<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
 		<header class="major">
-			<h1>Effective Remote People Management</h1>
+			<h1>AI Marketing Management</h1>
 		</header>
 
-<p>As a manager of a remote team, I like to know what's going on with people. What's working, what's not working, what they're stressed about and what they're happy about.</p>
-<p>I know how quickly feelings of loneliness or of being unappreciated can destroy motivation, and therefore productivity. Luckily, there's a very simple solution to prevent this from happening: Communication. (And a bunch of tricks I picked up from <a href="https://handbook.gitlab.com/handbook/company/culture/all-remote/">the Gitlab Remote Playbook</a>.)</p>
-<p>Here are a few examples of issues I've faced with remote team members. I will leave these cases anonymous, but you'll find one of these people in any remote team.</p>
-
-<h2 id="content">Works too much</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
-
-<h2 id="content">Misinterprets text communication</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
-
-<h2 id="content">Isolation due to </h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 
 <!-- Content -->
-<h2 id="content">How to Make Remote Teams Work</h2>
-<p>My favorite pet peeve is LinkedIn posts disparaging remote work and remote workers as inefficient and lazy. When in fact, remote offices work as well as or better than traditional offices, as long as they're managed properly.</p>
-<p>Here are a few methods I use to effectively manage a remote team. These are very quick techniques to turn a group of random people located around the world into one cohesive unit.</p>
+
+<h2 id="content">Communicator By Heart, Developer By Head</h2>
+<p>The one thing that lights my fire is communication and figuring people out. I love to find ways of understanding and connecting with different kinds of people. And because I'm an engineer and nerd by heart, I find myself spending time with marketers, developers and other nerds.</p>
+<p>I got into content marketing because I love to learn concepts and then teach them in clever ways to others like me. More often that meant creating content about my company's products and helping our customers learn how to use them.</p>
+<p>When LLM based AI came along, my content marketing career took a sharp turn into creating mindless AI content for SEO companies. Creating faceless and soulless content at scale moved me further and further away from what I love: connecting with people.</p>
+<p>Which is ultimately why I now brand myself as a community manager. AI is good for a lot of things - generating text on the internet is not one of them. Luckily, you can't foster a healthy and engaged community without being a human.</p>
+<p>And I can do human.</p>
+<p>Still, here are some of the cool stuff I did as an AI marketing manager:</p>
 
 <dl>
-    <dt>Listen</dt>
+	<dt>Experimented with LLM tools</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>Most LLM tools are still overpriced garbage, sadly. But the ones that work are incredible. I used ChatGPT 3.5 and 4 for most of my work, spending probably hundreds of hours figuring out the best prompts and ways to make it do my bidding.</p>
 	</dd>
-    <dt>Assigned coffee chats</dt>
+	<dt>AI content creation</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>Working for Smash Digital, the goal was to get AI to generate basic SEO articles around some particular keywords. After 3-4 months of experimentation, I got a pipeline working. We were able to push 5-10 articles per week on really difficult niche keywords, like "micro private equity" and "SBA loans". Problem is, 50% of the job was still done by our human team.</p>
 	</dd>
-    <dt>Weekly chats with team members</dt>
+	<dt>Scripting with LLMs</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>The real power of LLM comes from connecting it to a quality source and using LLM to turn that content into something else.</p>
+		<p>We're talking speech to text, summarizing notes, serving pieces from documentation etc. Kind of like what AssemblyAI does. Using Google Docs and a few choice Python scripts, I was able to take a Youtube video and use it as a source for ChatGPT. Or take a document and turn it into keywords, that sort of stuff. But since I'm not a Python wizard, nor did Smash Digital need this sort of project, this project was left by the wayside.</p>
 	</dd>
-    <dt>Open Slack Communication</dt>
+	<dt>LangChain development</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p></p>
 	</dd>
-    <dt>Internal Online Events</dt>
+	<dt>5. Visit A Fun Restaurant</dt>
 	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-    <dt>Support Offline Meetups</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-    <dt>Support Location Swaps</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-	<dt>Yearly Company Meetups</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+		<p>You gotta eat, right? Talk to a local guide and find a good restaurant that the locals frequent. Ask the waiter where they go after hours. Ask the bartender what they do for fun. A restaurant is a lively space with all sorts of random visitors, you're bound to find your next adventure here.</p>
 	</dd>
 </dl>
-
-<h2 id="content">Speaking Events</h2>
-<p>I'm not a naturally outgoing guy, but I love to be able to express myself and communicate my ideas. That's why I practice speaking as often as I can. Here are some of my favorite talks:</p>
-
-<dl>
-	<dt>2024 Communication For IT Project Success hive/piscine coding school</dt>
-	<dd>
-		<p>Here's me in Helsinki talking about communication within a software engineering project.</p>
-	</dd>
-    <dt>2022 Client Acquisition For Freelancers, Helsinki</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-    <dt>2021 Client Acquisition For Freelancers, Budapest</dt>
-	<dd>
-		<p>Here's me in Budapest talking about finding clients. </p>
-	</dd>
-    <dt>2021 Speaking and Stage Fright, Pärnu University</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-    <dt>2020 Psychology and relationship dynamics, Helsinki</dt>
-	<dd>
-		<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
-	</dd>
-</dl>
-
-<!-- Image -->
-<h3>Image</h3>
-
-<h4>Fit</h4>
 <span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
-<div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-	</div>
-</div>
+<h2 id="content">My Professional Communities</h2>
+<p>When I was working as a freelancer, one of my main ways of getting clients was joining a local community related to Wordpress development, Javascript, AI tools or whatever project I'm working on at the moment.</p>
+<p>Here are some of the communities that we started.</p>
 
-<h4>Left &amp; Right</h4>
-<p><span class="image left"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-<p><span class="image right"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+<dl>
+	<dt>Digital Marketing Community Barcelona</dt>
+	<dd>
+		<p>What started as 5 guys meeting up to talk about Wordpress, grew into a local digital marketing meetup. My content marketing expertise was enough to become a sort of local authority on the topic, which lead to a handful of client relationships.</p>
+	</dd>	
+	<dt>Private Investors Budapest</dt>
+	<dd>
+		<p>Spending time at the Impact Hub, I found myself teaching and learning from many entrepreneurs. Among them were private equity investors, looking for startups to invest in. We decided to create a brainstorming group to think of business ideas and possible targets of investment capital.</p>
+	</dd>
+	<dt>Freelance Copywriters of Budapest</dt>
+	<dd>
+		<p>I was trying to make it as a freelance copywriter at one point in time. But I found myself </p>
+	</dd>
+	<dt>Digital Marketeers - Budapest</dt>
+	<dd>
+		<p>Because of my involvement with Thrive Themes, I had a lot of knowledge on the content marketing front. Again, at the Impact Hub, I realized plenty of people needed help in this area. So we started meeting up every week to workshop a particular marketing problem. We became the Marketeers of Budapest.</p>
+	</dd>
+</dl>
+<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<h2 id="content">My Online Communities</h2>
+<p>As a marketer, I have to know how to create and manage audiences online. While I'm much more comfortable meeting up with people in real life, some of my coaching endeavours have resulted in online groups of decent size.</p>
 
-<!-- Box -->
-<h3>Box</h3>
-<div class="box">
-	<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
-</div>
-
-</div>
-</div>
-
+<dl>
+	<dt>2017 - Heartful Entrepreneur Community</dt>
+	<dd>
+		<p>During my endeavours to become a 6-figure freelancer, I met a lot of copywriters. While I was supposed to pitch my copywriting skills to potential clients, I found myself coaching existing copywriters instead. I created this group for freelancers and copywriters who are fiercely independent and want to do their own thing. The point was to share advice on building a personally branded business, which is incredibly important in copywriting. The group was a mild success, with 5k people at one time, but has since died down.</p>
+	</dd>
+</dl>
+<dl>
+	<dt>2020 - Youtube Channel For Introvert Relationship Advice</dt>
+	<dd>
+		<p>At one point, I wanted to become a Youtuber to help introverts and developers form healthy relationships, romantic or otherwise. I created 100 videos about relationships and mature emotions. The channel had 2000 subscribers at most, but it was attracting a crowd I didn't feel comfortable with so it's been on hiatus ever since.</p>
+		<p>I feel there's a way to build a relationship coaching community with healthier fundamentals, and I may return to the project if I ever find that way.</p>
+	</dd>
+</dl>
 </div>
 </section>
-
 </div>
