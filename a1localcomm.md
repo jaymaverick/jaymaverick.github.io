@@ -12,11 +12,14 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
+	<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
 		<header class="major">
 			<h1>Remote/Local Community Building</h1>
 		</header>
 
+
 <!-- Content -->
+
 <h2 id="content">Finding Communities When Travelling</h2>
 <p>I love to travel. Sometimes I end up in a strange city all by myself, knowing absolutely no one. That's when I go out to find an existing community that I can join. Because it's really difficult to build any sort of community if it's just you. Luckily, if I'm interested in something, there's bound to be people out there interested in the same thing, regardless of location.</p>
 <p>Finding communities isn't just for my own pleasure, of course. Whenever we land in a new city with my company or whatever group I'm travelling with, I'm quickly able to spearhead our integration with the local population. I can find the good restaurants and entertainment, shops and groceries, and the best places to work and meet great co-workers.</p>
@@ -47,8 +50,8 @@ nav-menu: true
 		<p>You gotta eat, right? Talk to a local guide and find a good restaurant that the locals frequent. Ask the waiter where they go after hours. Ask the bartender what they do for fun. A restaurant is a lively space with all sorts of random visitors, you're bound to find your next adventure here.</p>
 	</dd>
 </dl>
-
-<h2 id="content">Finding Professional Communities</h2>
+<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<h2 id="content">My Professional Communities</h2>
 <p>When I was working as a freelancer, one of my main ways of getting clients was joining a local community related to Wordpress development, Javascript, AI tools or whatever project I'm working on at the moment.</p>
 <p>Here are some of the communities that we started.</p>
 
@@ -70,8 +73,8 @@ nav-menu: true
 		<p>Because of my involvement with Thrive Themes, I had a lot of knowledge on the content marketing front. Again, at the Impact Hub, I realized plenty of people needed help in this area. So we started meeting up every week to workshop a particular marketing problem. We became the Marketeers of Budapest.</p>
 	</dd>
 </dl>
-
-<h2 id="content">Online Communities</h2>
+<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+<h2 id="content">My Online Communities</h2>
 <p>As a marketer, I have to know how to create and manage audiences online. While I'm much more comfortable meeting up with people in real life, some of my coaching endeavours have resulted in online groups of decent size.</p>
 
 <dl>
@@ -87,41 +90,6 @@ nav-menu: true
 		<p>I feel there's a way to build a relationship coaching community with healthier fundamentals, and I may return to the project if I ever find that way.</p>
 	</dd>
 </dl>
-<!-- Image -->
-<h3>Image</h3>
-
-<h4>Fit</h4>
-<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
-<div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-	</div>
-</div>
-
-<h4>Left &amp; Right</h4>
-<p><span class="image left"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-<p><span class="image right"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-
-<!-- Box -->
-<h3>Box</h3>
-<div class="box">
-	<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
-</div>
-
-</div>
-</div>
-
 </div>
 </section>
-
 </div>
