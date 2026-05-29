@@ -49,7 +49,7 @@ EasyOCR is an open-source library that handles the heavy lifting of computer vis
 
 #### The Brain (Local LLM)
 
-We feed that extracted text into a small, highly optimized Local LLM, like [Ministral 3 8B. ](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF)
+We feed that extracted text into a small, highly optimized Local LLM, like [Ministral 3 8B. ](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF) Using an 8B model like Ministral ensures the entire inference step runs efficiently on low-cost local edge hardware (like an NVIDIA Jetson or a small NUC Mini PC), keeping the hardware bill of materials (BOM) low for enterprise deployment.
 
 The LLM doesn't need to see the image; it just reads the text data to make executive decisions. It figures out which menu option matches the user's intent, then tells Python exactly where to click next.
 

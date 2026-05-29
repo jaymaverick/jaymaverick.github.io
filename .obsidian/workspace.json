@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Future Strategy and Scale.md",
+                "file": "docs/Non-Invasive Architecture.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Future Strategy and Scale"
+              "title": "Non-Invasive Architecture"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
-    "docs/Non-Invasive Architecture.md",
     "docs/The Automation Loop.md",
+    "docs/Future Strategy and Scale.md",
+    "docs/Non-Invasive Architecture.md",
     "docs/The Legacy Software Trap.md",
     "static/img/partslist.png",
     "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
@@ -197,7 +198,6 @@
     "blog/v2-llm-ocr-failure/jetkvm-llm-1.webp",
     "docs/Introduction.md",
     "static/img/kvmloop.jpeg",
-    "docs/Future Strategy and Scale.md",
     "README.old",
     "deploy.yml",
     "static/code/web_ui.py",
