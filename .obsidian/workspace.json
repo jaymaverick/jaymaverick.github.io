@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Future Strategy and Scale.md",
+                "file": "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Future Strategy and Scale"
+              "title": "2026-05-10-dusty-ibm-laptop"
             }
           }
         ]
@@ -185,17 +185,24 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
+    "docs/The Legacy Software Trap.md",
+    "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
+    "blog/v3-easyocr-llm/2026-05-13-v3-easyocr-llm.mdx",
+    "blog/v2-llm-ocr-failure/2026-05-12-v2-llm-ocr-failure.mdx",
+    "blog/v3-easyocr-llm/jetkvm-llm version2.webp",
+    "blog/v2-llm-ocr-failure/jetkvm-llm-1.webp",
+    "docs/The Automation Loop.md",
+    "docs/Introduction.md",
+    "static/img/kvmloop.jpeg",
+    "docs/Future Strategy and Scale.md",
     "README.old",
     "deploy.yml",
-    "docs/The Legacy Software Trap.md",
-    "docs/Future Strategy and Scale.md",
     "docs/Non-Invasive Architecture.md",
     "static/code/web_ui.py",
     "static/code/scroll_manager.py",
     "static/code/ocr_engine.py",
     "static/code/llm_router.py",
     "static/code",
-    "docs/The Automation Loop.md",
     "blog/v2-llm-ocr-failure/testing.png",
     "static/img/IMG_20260529_033759.jpg",
     "static/img/IMG_20260529_033147.jpg",
@@ -203,14 +210,6 @@
     "static/EPC1.png",
     "static/img/Screenshot_20260529_042826.png",
     "static/img/undraw_docusaurus_mountain.svg",
-    "static/img/LI-In-Bug.png",
-    "static/img/in-logo/in-logo/LI-In-Bug.png",
-    "static/img/in-logo/in-logo/LI-China-In-Bug.png",
-    "static/img/in-logo/in-logo",
-    "static/img/in-logo",
-    "static/img/in-logo.zip",
-    "static/img/favicon.ico",
-    "docs/Introduction.md",
     "Untitled.md"
   ]
 }

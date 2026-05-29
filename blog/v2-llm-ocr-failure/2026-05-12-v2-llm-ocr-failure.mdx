@@ -11,15 +11,7 @@ The JetKVM grabs the screenshot.
 
 A quick JavaScript script sends that image over to the LLM. The LLM reads the screen and tells Python exactly where to click.
 
-```
-[JetKVM Laptop Screen] 
-       │ 
-       ▼ (WebRTC Stream) 
-[Your Browser Frontend] ──(Captures Frame)──> [Converts to Base64 Image String]                                                         │ ▼ (Fetch POST Request)                                                   [Ollama / Local Server] 
-                                                       │ (Runs Ministral 8B) 
-                                                       ▼ 
-                                                 [Structured JSON Data Out]
-```
+![](jetkvm-llm-1.webp)
 
 Clean. Simple.
 

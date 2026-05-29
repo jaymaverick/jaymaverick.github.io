@@ -27,6 +27,8 @@ This creates a massive brick wall for traditional automation. You can't use clou
 
 ### My Product Vision
 
+![](../static/img/kvmloop.jpeg)
+
 My goal wasn't to rewrite the old software. Everybody *wants that to happen,* but nobody really *wants to do it.*
 
 So instead, I would build ***a better human.***

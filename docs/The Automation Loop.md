@@ -53,8 +53,9 @@ Screenshot. OCR. LLM check. Scroll.
 It keeps running this tight loop dynamically until it either spots the target or hits the absolute bottom of the list.
 
 ### The Final Result
+![](../static/img/kvmloop.jpeg)
 
-The loop ends with a clean handoff.
+It's exactly as I planned. Well, after a dozen failed iterations.
 
 If the LLM finds the part on the screen, it extracts the exact part number and official name, packaging it into a clean JSON response that sends it right back to the user's browser.
 
