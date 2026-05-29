@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "47deab9cb34e04f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3556146ec47cc2c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "091cba1d192405c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Future Strategy and Scale.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Future Strategy and Scale"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7387a2b63b055c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "672c9384743928d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7e4742f6ec0fc0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "43e2741e1c6997ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7caebfe018af0f80",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eee59719a119a867",
+    "type": "split",
+    "children": [
+      {
+        "id": "6843bf2605eaae28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c15bec2fb1896513",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for docusaurus-plushie-banner"
+            }
+          },
+          {
+            "id": "21e07b46a4f776ef",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from docusaurus-plushie-banner"
+            }
+          },
+          {
+            "id": "32f3a6e2f1e59820",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d2f99b61e6d90fa9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9b35bcfcb4abc301",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of docusaurus-plushie-banner"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "091cba1d192405c7",
+  "lastOpenFiles": [
+    "deploy.yml",
+    "docs/The Legacy Software Trap.md",
+    "docs/Future Strategy and Scale.md",
+    "docs/Non-Invasive Architecture.md",
+    "static/code/web_ui.py",
+    "static/code/scroll_manager.py",
+    "static/code/ocr_engine.py",
+    "static/code/llm_router.py",
+    "static/code",
+    "docs/The Automation Loop.md",
+    "blog/v2-llm-ocr-failure/testing.png",
+    "static/img/IMG_20260529_033759.jpg",
+    "static/img/IMG_20260529_033147.jpg",
+    "static/img/EPC1.png",
+    "static/EPC1.png",
+    "static/img/Screenshot_20260529_042826.png",
+    "static/img/undraw_docusaurus_mountain.svg",
+    "static/img/LI-In-Bug.png",
+    "static/img/in-logo/in-logo/LI-In-Bug.png",
+    "static/img/in-logo/in-logo/LI-China-In-Bug.png",
+    "static/img/in-logo/in-logo",
+    "static/img/in-logo",
+    "static/img/in-logo.zip",
+    "static/img/favicon.ico",
+    "docs/Introduction.md",
+    "Untitled.md",
+    "blog/v2-llm-ocr-failure/2026-05-12-v2-llm-ocr-failure.mdx"
+  ]
+}
