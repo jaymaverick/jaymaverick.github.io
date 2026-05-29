@@ -185,6 +185,7 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
+    "README.old",
     "deploy.yml",
     "docs/The Legacy Software Trap.md",
     "docs/Future Strategy and Scale.md",
@@ -210,7 +211,6 @@
     "static/img/in-logo.zip",
     "static/img/favicon.ico",
     "docs/Introduction.md",
-    "Untitled.md",
-    "blog/v2-llm-ocr-failure/2026-05-12-v2-llm-ocr-failure.mdx"
+    "Untitled.md"
   ]
 }
