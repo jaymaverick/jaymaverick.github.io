@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Non-Invasive Architecture.md",
+                "file": "docs/The Automation Loop.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Non-Invasive Architecture"
+              "title": "The Automation Loop"
             }
           }
         ]
@@ -185,10 +185,10 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
+    "docs/The Legacy Software Trap.md",
+    "docs/Non-Invasive Architecture.md",
     "docs/The Automation Loop.md",
     "docs/Future Strategy and Scale.md",
-    "docs/Non-Invasive Architecture.md",
-    "docs/The Legacy Software Trap.md",
     "static/img/partslist.png",
     "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
     "static/img/navigatingmenus.png",

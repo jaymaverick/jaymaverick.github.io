@@ -32,7 +32,9 @@ Once you hit submit, Python takes the wheel.
 
 It tells the JetKVM to click the exact coordinates of the VIN input box on the legacy EPC software and type the code out, character by character. The old software processes the VIN, and a massive dropdown menu pops up demanding a general parts category.
 
-Python handles the deterministic orchestration (precise clicking, coordinate mapping, and typing), while the LLM handles the probabilistic reasoning (interpreting the text options). This split ensures the AI never hallucinates a click. It can only choose from valid coordinates provided by the OCR.
+Python handles the deterministic orchestration (precise clicking, coordinate mapping, and typing), while the LLM handles the probabilistic reasoning (interpreting the text options). 
+
+This split ensures the ***AI never hallucinates a click.*** It can only choose from valid coordinates provided by the OCR.
 
 ### Navigating the Menus
 ![](../static/img/navigatingmenus.png)
