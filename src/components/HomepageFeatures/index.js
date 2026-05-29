@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'The Method',
+    title: 'The Grind',
     imgSrc: '/img/sisyphus.jpeg',
     description: (
       <>
