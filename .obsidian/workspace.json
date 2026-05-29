@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
+                "file": "docs/Future Strategy and Scale.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-05-10-dusty-ibm-laptop"
+              "title": "Future Strategy and Scale"
             }
           }
         ]
@@ -185,19 +185,21 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
+    "docs/Non-Invasive Architecture.md",
+    "docs/The Automation Loop.md",
     "docs/The Legacy Software Trap.md",
+    "static/img/partslist.png",
     "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
+    "static/img/navigatingmenus.png",
     "blog/v3-easyocr-llm/2026-05-13-v3-easyocr-llm.mdx",
     "blog/v2-llm-ocr-failure/2026-05-12-v2-llm-ocr-failure.mdx",
     "blog/v3-easyocr-llm/jetkvm-llm version2.webp",
     "blog/v2-llm-ocr-failure/jetkvm-llm-1.webp",
-    "docs/The Automation Loop.md",
     "docs/Introduction.md",
     "static/img/kvmloop.jpeg",
     "docs/Future Strategy and Scale.md",
     "README.old",
     "deploy.yml",
-    "docs/Non-Invasive Architecture.md",
     "static/code/web_ui.py",
     "static/code/scroll_manager.py",
     "static/code/ocr_engine.py",
@@ -208,8 +210,6 @@
     "static/img/IMG_20260529_033147.jpg",
     "static/img/EPC1.png",
     "static/EPC1.png",
-    "static/img/Screenshot_20260529_042826.png",
-    "static/img/undraw_docusaurus_mountain.svg",
     "Untitled.md"
   ]
 }

@@ -33,6 +33,7 @@ Once you hit submit, Python takes the wheel.
 It tells the JetKVM to click the exact coordinates of the VIN input box on the legacy EPC software and type the code out, character by character. The old software processes the VIN, and a massive dropdown menu pops up demanding a general parts category.
 
 ### Navigating the Menus
+![](../static/img/navigatingmenus.png)
 
 This is where the system gets its eyes.
 
@@ -43,19 +44,25 @@ The Local LLM acts as the brain. It reads the text options found by EasyOCR, mat
 A second dropdown menu appears, asking for a highly specific sub-category. The system repeats the exact same play: screenshot, OCR text extraction, LLM decision, and hardware click.
 
 ### The Parts Evaluation Loop
+![](../static/img/partslist.png)
 
 Now the system is looking at the actual parts list. This is where a human would usually start scrolling and squinting.
 
 Instead, EasyOCR reads the screen. The LLM scans the text data, checking if the exact part we need is visible. If it's not there, Python commands the JetKVM to click the scroll-down button, and the loop resets.
 
-Screenshot. OCR. LLM check. Scroll.
+- [x] Screenshot. 
+- [x] OCR. 
+- [ ] LLM check. 
+- [ ] Scroll.
 
 It keeps running this tight loop dynamically until it either spots the target or hits the absolute bottom of the list.
 
 ### The Final Result
 ![](../static/img/kvmloop.jpeg)
 
-It's exactly as I planned. Well, after a dozen failed iterations.
+It's exactly as I planned. 
+
+Well, after a dozen failed iterations.
 
 If the LLM finds the part on the screen, it extracts the exact part number and official name, packaging it into a clean JSON response that sends it right back to the user's browser.
 

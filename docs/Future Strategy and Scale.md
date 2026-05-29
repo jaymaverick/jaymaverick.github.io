@@ -52,10 +52,12 @@ With this hardware-first architecture, the upfront cost is incredibly low. We ca
 
 It is low-risk, low-cost, and high-impact innovation.
 
-## The AI Deployment Strategist POV
+:::tip
+### AI Deployment Strategist POV
 
 True innovation doesn't require tearing down the past. 
 
 By treating legacy systems as a physical environment rather than a software problem, we can unlock billions of dollars in trapped enterprise data. 
 
 Safely, securely, and at scale.
+:::

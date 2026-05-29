@@ -78,10 +78,12 @@ Running on a local FastAPI loop on port `5000`, the router guards the model from
 #### 4. Deterministic Scroll Fail-Safes ([`scroll_manager.py`](https://github.com/jaymaverick/jetkvm_llm_automation/blob/main/scroll_manager.py))
 To ensure the scraper doesn't get trapped in an infinite wheeling routine, a tracking loop normalizes incoming text viewports and generates a structural cryptographic SHA-256 fingerprint. If a layout state repeats, the scraper safely flags the container as the absolute bottom boundary and proceeds downstream.
 
-## The AI Deployment Strategist POV
+:::tip
+### AI Deployment Strategist POV
 
 This is the definition of a zero-touch footprint. 
 
 We've created a highly intelligent, adaptive automation layer without modifying a single line of legacy code. 
 
 It is completely compliant, totally secure, and ready to deploy on day one.
+:::

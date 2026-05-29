@@ -51,8 +51,10 @@ You have to treat the computer like a locked vault. You are only allowed to look
 
 That's where my non-invasive architecture comes in.
 
-## The AI Deployment Strategist POV
+:::tip
+### AI Deployment Strategist POV
 
 This isn't just an automotive problem. This exact same constraint exists in every hospital, banking branch, and government office on earth. 
 
 Solve it here, and you can solve it anywhere.
+:::
