@@ -33,7 +33,7 @@ function HomepageHeader() {
           Jay Pitkänen
         </h1>
         <p style={{ fontSize: '1.7rem', fontWeight: '600', color: '#f3f4f6', maxWidth: '400px', margin: '0 auto', opacity: '0.95', marginBottom: '2rem', textShadow: '0px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-          AI Deployment Strategist
+          AI Solutions Architect
         </p>
         <div className={styles.buttons}>
           <Link
