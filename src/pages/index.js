@@ -30,10 +30,10 @@ function HomepageHeader() {
     >
       <div className="container" style={{ position: 'relative', zIndex: 1, maxWidth: '500px', margin: '0 auto', background: 'rgba(0, 0, 0, 0.01)', padding: '2.5rem', borderRadius: '12px', backdropFilter: 'blur(4px)', border: '1px solid rgba(255, 255, 255, 0.3)' }}>
         <h1 style={{ fontSize: '4rem', fontWeight: '800', color: '#ffffff', marginBottom: '2rem', textShadow: '0px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-          Jay Pitkänen
+          {siteConfig.title}
         </h1>
         <p style={{ fontSize: '1.7rem', fontWeight: '600', color: '#f3f4f6', maxWidth: '400px', margin: '0 auto', opacity: '0.95', marginBottom: '2rem', textShadow: '0px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-          AI Solutions Architect
+          {siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
           <Link
