@@ -78,8 +78,8 @@ export default function Home() {
             What if AI was natively compatible with your ancient legacy systems that the IT department says can't be touched?
           </p>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '700px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            We bridge the gap between fragile corporate infrastructure and local intelligence.
-            Automation and intelligence with absolute security. 
+            I bridge the gap between fragile corporate infrastructure and local intelligence.
+            You get automation and intelligence with absolute security. 
           </p>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '700px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
             <strong>Never rely on a foreign black box cloud AI again.</strong>
