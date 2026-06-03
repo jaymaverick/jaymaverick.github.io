@@ -14,19 +14,13 @@ function HomepageHeader() {
   return (
     <header 
       style={{
-        // 1. Full viewport width, dynamic height matching your padding
         width: '100%',
         padding: '6rem 0', 
         position: 'relative',
-        
-        // 2. The magic combo: a 50% opacity black veil layered OVER the webp image
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/img/banner-bg.webp')`,
-        
-        // 3. Perfect image scaling
         backgroundSize: 'cover',
         backgroundPosition: 'center 40%',
         backgroundRepeat: 'no-repeat',
-        
         textAlign: 'center',
       }}
     >
@@ -44,7 +38,6 @@ function HomepageHeader() {
             style={{ 
               fontSize: '1.1rem', 
               padding: '0.75rem 2rem',
-        // The "sophisticated light blue" hex code
               backgroundColor: '#1394E6', 
               borderColor: '#60A5FA',
               color: '#ffffff',
@@ -203,16 +196,16 @@ export default function Home() {
               Career Milestones and Highlights
             </Heading>
               <p style={{ marginBottom: '1rem' }}>
-                When I was studying marketing at Aalto University, they didn't know (or care) what <strong>"content marketing"</strong> was.
+                I'm Finnish, but I grew up in America. That means I have an engineer brain, but the heart of an explorer.
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                For most Finns in 2011, "marketing" still meant sitting at the office, running down a list of cold-call telephone numbers.
+                When I wanted to study SEO and blogging, Aalto University didn't even recognize the concept of <strong> "content marketing" </strong>.
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                The world was evolving rapidly, and I wasn't going to be left behind.
+                After a few years of exploring, I found my people: <strong> Builders. Dreamers. Marketers. </strong>
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                Took a few years, but eventually I found my people: <strong> Builders. Dreamers. Marketers. </strong> My professional career is hardly straightforward or traditional, but over the years, I've built a bunch of clever client solutions with cutting edge tech. And that's what I intend to keep doing!
+                My professional career is hardly straightforward or traditional, but over the years, I've built a bunch of solutions with cutting edge tech that have brought value to my clients. And that's what I intend to keep doing!
               </p>
               <p style={{ marginBottom: '0rem' }}>
                 Here are some of my major achievements over the years:
