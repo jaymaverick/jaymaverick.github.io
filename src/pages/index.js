@@ -3,6 +3,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import React from 'react';
+import PortfolioTimeline from '@site/src/components/PortfolioTimeline';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -90,7 +92,7 @@ export default function Home() {
 
         <hr style={{ margin: '2rem auto', maxWidth: '80%', opacity: '0.2' }} />
 
-        {/* Section 1: The Core Thesis */}
+        {/* Section: Why AI Projects Fail */}
         <section style={{ padding: '1rem 0' }}>
           <div className="container" style={{ maxWidth: '800px' }}>
             <Heading as="h2" style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>
@@ -146,7 +148,7 @@ export default function Home() {
         <section style={{ padding: '2rem 0 5rem 0' }}>
           <div className="container" style={{ maxWidth: '900px' }}>
             <Heading as="h2" style={{ marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem' }}>
-              I Solve Local AI Problems.
+              I Solve Local AI Problems
             </Heading>
             <div style={{ overflowX: 'auto', marginBottom: '2rem' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '1rem' }}>
@@ -173,14 +175,13 @@ export default function Home() {
               </table>
             </div>
           </div>
-        <div className={styles.buttons}>
+         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/Introduction"
             style={{ 
               fontSize: '1.1rem', 
               padding: '0.75rem 2rem',
-        // The "sophisticated light blue" hex code
               backgroundColor: '#1394E6', 
               borderColor: '#60A5FA',
               color: '#ffffff',
@@ -192,7 +193,55 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-        </div>
+         </div>
+        </section>
+
+        {/* Section: Who is Jay? */}
+        <section style={{ marginTop: '1rem' }}>
+          <div className="container" style={{ maxWidth: '800px' }}>
+            <Heading as="h2" style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>
+              Career Milestones and Highlights
+            </Heading>
+              <p style={{ marginBottom: '1rem' }}>
+                I've never been good at the whole "choose a career path and stick with it." When I was studying marketing at Aalto University, they didn't know (or care) what <strong>"content marketing"</strong> was.
+              </p>
+              <p style={{ marginBottom: '1rem' }}>
+                For most Finns in 2011, "marketing" still meant sitting at the office, running down a list of cold-call telephone numbers.
+              </p>
+              <p style={{ marginBottom: '1rem' }}>
+                The world was evolving rapidly, and I wasn't going to be left behind.
+              </p>
+              <p style={{ marginBottom: '1rem' }}>
+                Took a few years, but eventually I found my people: <strong> Builders. Dreamers. Marketers. </strong> My professional career is hardly straightforward or traditional, but over the years, I've built a bunch of clever solutions with cutting edge tech. And that's what I intend to keep doing!
+              </p>
+              <p style={{ marginBottom: '0rem' }}>
+                Here are some of my major achievements over the years:
+              </p>
+          </div>
+         <div className="container" style={{ maxWidth: '900px' }}>
+          <PortfolioTimeline />
+         </div>
+
+         <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/Introduction"
+            style={{ 
+              fontSize: '1.1rem', 
+              padding: '0.75rem 2rem',
+              backgroundColor: '#1394E6', 
+              borderColor: '#60A5FA',
+              color: '#ffffff',
+              fontWeight: '600',
+              marginBottom: '5rem'
+            }}
+          >
+            Check Out My LLM Demo
+            <svg style={{ marginLeft: '10px', width: '20px', height: '15px' }} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+         </div>
         </section>
       </main>
     </Layout>
