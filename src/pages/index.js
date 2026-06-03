@@ -196,16 +196,19 @@ export default function Home() {
               Career Milestones and Highlights
             </Heading>
               <p style={{ marginBottom: '1rem' }}>
-                I'm Finnish, but I grew up in America. That means I have an engineer brain, but the heart of an explorer.
+                I'm a marketer, product designer, builder, and creator. My brain has never been very good at the whole "stick to the status quo, don't rock the boat, get a traditional career"-sort of thing. 
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                When I wanted to study SEO and blogging, Aalto University didn't even recognize the concept of <strong> "content marketing" </strong>.
+                When I wanted to study SEO and blogging, Aalto University didn't even recognize the concept of <strong> "content marketing." </strong> I soon realized I wasn't built for a university degree. The marketing tech was out there, and I needed to find it.
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                After a few years of exploring, I found my people: <strong> Builders. Dreamers. Marketers. </strong>
+                It took a few years, but eventually I found my people: <strong> Dreamers. Shapers. Singers. Makers. </strong>
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                My professional career is hardly straightforward or traditional, but over the years, I've built a bunch of solutions with cutting edge tech that have brought value to my clients. And that's what I intend to keep doing!
+                And we've done some amazing stuff together.
+              </p>
+              <p style={{ marginBottom: '1rem' }}>
+                My professional career is hardly traditional, but I pride myself on my record of using emerging cutting edge tech to create clever solutions to complex business.
               </p>
               <p style={{ marginBottom: '0rem' }}>
                 Here are some of my major achievements over the years:
