@@ -197,13 +197,13 @@ export default function Home() {
         </section>
 
         {/* Section: Who is Jay? */}
-        <section style={{ marginTop: '1rem' }}>
+        <section style={{ marginTop: '0rem' }}>
           <div className="container" style={{ maxWidth: '800px' }}>
             <Heading as="h2" style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>
               Career Milestones and Highlights
             </Heading>
               <p style={{ marginBottom: '1rem' }}>
-                I've never been good at the whole "choose a career path and stick with it." When I was studying marketing at Aalto University, they didn't know (or care) what <strong>"content marketing"</strong> was.
+                When I was studying marketing at Aalto University, they didn't know (or care) what <strong>"content marketing"</strong> was.
               </p>
               <p style={{ marginBottom: '1rem' }}>
                 For most Finns in 2011, "marketing" still meant sitting at the office, running down a list of cold-call telephone numbers.
@@ -212,7 +212,7 @@ export default function Home() {
                 The world was evolving rapidly, and I wasn't going to be left behind.
               </p>
               <p style={{ marginBottom: '1rem' }}>
-                Took a few years, but eventually I found my people: <strong> Builders. Dreamers. Marketers. </strong> My professional career is hardly straightforward or traditional, but over the years, I've built a bunch of clever solutions with cutting edge tech. And that's what I intend to keep doing!
+                Took a few years, but eventually I found my people: <strong> Builders. Dreamers. Marketers. </strong> My professional career is hardly straightforward or traditional, but over the years, I've built a bunch of clever client solutions with cutting edge tech. And that's what I intend to keep doing!
               </p>
               <p style={{ marginBottom: '0rem' }}>
                 Here are some of my major achievements over the years:
