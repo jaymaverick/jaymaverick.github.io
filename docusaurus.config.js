@@ -95,7 +95,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Local LLM Demo',
+            label: 'Case Studies',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

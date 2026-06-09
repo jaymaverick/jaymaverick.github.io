@@ -44,7 +44,7 @@ function HomepageHeader() {
               fontWeight: '600'
             }}
           >
-            Check Out My LLM Demo
+            My Case Studies
             <svg style={{ marginLeft: '10px', width: '20px', height: '15px' }} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -66,17 +66,19 @@ export default function Home() {
         <section style={{ padding: '4rem 0 2rem 0', textAlign: 'center' }}>
           <div className="container">
             <h2 style={{ fontSize: '2.0rem', maxWidth: '900px', margin: '0 auto', fontWeight: '700', lineHeight: '1.2' }}>
-              Secure, Smart, Non-Invasive Local AI solutions
+              Secure and Accurate Local AI Solutions
             </h2>
           </div>
-          <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '700px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            What if AI was natively compatible with your ancient legacy systems that the IT department says can't be touched?
+          <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '800px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
+            True AI integration goes beyond a fancy chatbot wrapper or forced CoPilot integration.
           </p>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '700px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            I bridge the gap between fragile corporate infrastructure and local intelligence.
-            You get automation and intelligence with absolute security. 
+            I bridge the gap between chaotic human input and corporate data infrastructure using local, cost-effective and secure AI models.
           </p>
-          <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '700px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
+          <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '800px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
+            You can reduce days of operational delays into minutes with closed-loop automation and <strong> ZERO </strong> recurring token fees. Turn real-world chaos into precise database structures with absolute compliance.
+          </p>
+          <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '800px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
             <strong>Never rely on a foreign black box cloud AI again.</strong>
           </p>
         </section>

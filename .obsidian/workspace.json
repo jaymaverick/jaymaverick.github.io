@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/The Automation Loop.md",
+                "file": "docs/jetkvm_llm/Introduction.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "The Automation Loop"
+              "title": "Introduction"
             }
           }
         ]
@@ -185,31 +185,43 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
+    "docs/jetkvm_llm/The Legacy Software Trap.md",
+    "docs/jetkvm_llm/Introduction.md",
+    "docs/Introduction.md",
+    "docs/jetkvm_llm/Future Strategy and Scale.md",
+    "docs/case_study1/Future Strategy and Scale.md",
+    "docs/jetkvm_llm2/The Legacy Software Trap.md",
+    "docs/jetkvm_llm2/Non-Invasive Architecture.md",
+    "docs/jetkvm_llm2/The Automation Loop.md",
+    "docs/jetkvm_llm2/Future Strategy and Scale.md",
+    "docs/jetkvm_llm2/Introduction.md",
+    "docs/jetkvm_llm2",
+    "docs/case_study2/Future Strategy and Scale.md",
+    "docs/jetkvm_llm/Non-Invasive Architecture.md",
+    "docs/jetkvm_llm/The Automation Loop.md",
+    "blog/v3-easyocr-llm/2026-05-13-v3-easyocr-llm.mdx",
+    "blog/v2-llm-ocr-failure/2026-05-12-v2-llm-ocr-failure.mdx",
+    "blog/v1-opencv-failure/2026-05-11-v1-opencv-failure.mdx",
+    "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
+    "static/img/enterprise-soft.jpeg",
+    "static/img/title.jpeg",
+    "static/img/mercedes-epc.jpeg",
+    "static/img/future-scale.jpeg",
+    "docs/title.jpeg",
+    "docs/mercedes-epc.jpeg",
+    "docs/future-scale.jpeg",
+    "docs/enterprise-soft.jpeg",
+    "docs/case_study2",
     "docs/The Legacy Software Trap.md",
     "docs/Non-Invasive Architecture.md",
     "docs/The Automation Loop.md",
     "docs/Future Strategy and Scale.md",
     "static/img/partslist.png",
-    "blog/dusty-ibm-laptop/2026-05-10-dusty-ibm-laptop.mdx",
     "static/img/navigatingmenus.png",
-    "blog/v3-easyocr-llm/2026-05-13-v3-easyocr-llm.mdx",
-    "blog/v2-llm-ocr-failure/2026-05-12-v2-llm-ocr-failure.mdx",
-    "blog/v3-easyocr-llm/jetkvm-llm version2.webp",
-    "blog/v2-llm-ocr-failure/jetkvm-llm-1.webp",
-    "docs/Introduction.md",
-    "static/img/kvmloop.jpeg",
     "README.old",
     "deploy.yml",
     "static/code/web_ui.py",
     "static/code/scroll_manager.py",
-    "static/code/ocr_engine.py",
-    "static/code/llm_router.py",
-    "static/code",
-    "blog/v2-llm-ocr-failure/testing.png",
-    "static/img/IMG_20260529_033759.jpg",
-    "static/img/IMG_20260529_033147.jpg",
-    "static/img/EPC1.png",
-    "static/EPC1.png",
     "Untitled.md"
   ]
 }

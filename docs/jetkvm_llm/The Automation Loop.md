@@ -22,7 +22,7 @@ This loop turns a blind, stubborn legacy screen into a smart, conversational ass
 
 ### The Initial Handshake
 
-![](../static/img/Screenshot_20260529_042826.png)
+![](../../static/img/Screenshot_20260529_042826.png)
 
 Everything starts in a clean, modern web browser. You type in three basic pieces of information: the VIN code, the part they need, and the general area of the vehicle.
 
@@ -37,7 +37,7 @@ Python handles the deterministic orchestration (precise clicking, coordinate map
 This split ensures the ***AI never hallucinates a click.*** It can only choose from valid coordinates provided by the OCR.
 
 ### Navigating the Menus
-![](../static/img/navigatingmenus.png)
+![](../../static/img/navigatingmenus.png)
 
 This is where the system gets its eyes.
 
@@ -48,7 +48,7 @@ The Local LLM acts as the brain. It reads the text options found by EasyOCR, mat
 A second dropdown menu appears, asking for a highly specific sub-category. The system repeats the exact same play: screenshot, OCR text extraction, LLM decision, and hardware click.
 
 ### The Parts Evaluation Loop
-![](../static/img/partslist.png)
+![](../../static/img/partslist.png)
 
 Now the system is looking at the actual parts list. This is where a human would usually start scrolling and squinting.
 
@@ -62,7 +62,7 @@ Instead, EasyOCR reads the screen. The LLM scans the text data, checking if the 
 It keeps running this tight loop dynamically until it either spots the target or hits the absolute bottom of the list.
 
 ### The Final Result
-![](../static/img/kvmloop.jpeg)
+![](../../static/img/kvmloop.jpeg)
 
 It's exactly as I planned. 
 

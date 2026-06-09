@@ -2,7 +2,7 @@
 sidebar_label: 02 - The Legacy Software Trap
 sidebar_position: 2
 ---
-![](mercedes-epc.jpeg)
+![](../../static/img/mercedes-epc.jpeg)
 ## Case Study: Mercedes-Benz EPC
 
 Ah, the Mercedes Electronic Parts Catalogue (EPC).
@@ -22,7 +22,7 @@ To find a single part number, a human has to sit down and spend 15 minutes manua
 One wrong click sends you all the way back to the main menu.
 
 ### Black Box Automation Constraints
-![](../static/img/EPC1.png)
+![](../../static/img/EPC1.png)
 
 Since I own an old Mercedes, and I have to use EPC quite often, I've thought about automating the task or at least building a helper tool.
 

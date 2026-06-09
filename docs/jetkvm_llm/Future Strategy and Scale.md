@@ -2,8 +2,7 @@
 sidebar_label: 05 - Future Strategy and Scale
 sidebar_position: 5
 ---
-![](future-scale.jpeg)
-A great tech demo is a good start. But a tech demo that can't scale is just a hobby.
+![](../../static/img/future-scale.jpeg)A great tech demo is a good start. But a tech demo that can't scale is just a hobby.
 
 As an AI Deployment Strategist, my focus isn't just on making a prototype work on a single workbench. The real challenge is designing a system that can survive the harsh realities of corporate procurement, strict security audits, and global deployment.
 

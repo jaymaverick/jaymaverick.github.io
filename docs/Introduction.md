@@ -1,42 +1,13 @@
 ---
-sidebar_label: 01 - Introduction
+sidebar_label: Case Studies - Start Here
 sidebar_position: 1
 ---
-![](enterprise-soft.jpeg)
-## The Absolute State of Enterprise Software in 2026
+## These Are My Case Studies
 
-Enterprise software is a multi-billion dollar house of cards. One wrong click and the whole thing collapses.
+On the left sidebar you'll see a list of my AI case studies.
 
-Millions of offices are trapped using software built when the internet was still young. It’s slow, clunky, and completely isolated from the modern web. Companies spend fortunes keeping these ancient machines alive because replacing them would cost millions more.
+I design my AI solutions primarily to:
 
-And likely grind the business to a permanent halt.
-
-Instead, humans waste thousands of hours doing painful data entry by hand.
-
-### The Constraints of Air-Gapped Environments
-
-Modern AI tools (and billionaire CEOs) love the cloud. 
-
-But the real world is air-gapped.
-
-In industries like defense, healthcare, and automotive manufacturing, security is absolute. No internet connection. No software updates. No installing shiny new apps on the target machine. 
-
-If you touch the host system, you break it, and then production stops.
-
-This creates a massive brick wall for traditional automation. You can't use cloud APIs. You can't scrape the database. You have to work with exactly what is already on the screen, or you don't work at all.
-
-### My Product Vision
-
-![](../static/img/kvmloop.jpeg)
-
-My goal wasn't to rewrite the old software. Everybody *wants that to happen,* but nobody really *wants to do it.*
-
-So instead, I would build ***a better human.***
-
-Instead of hacking into the system, my architecture treats the legacy machine like a black box. By combining a hardware KVM, basic computer vision, and a local LLM, we can interact with any machine exactly like a real person does.
-
-We do this ***without installing a single line of code on the host.*** 
-
-We just look at the screen, figure out what to do, and click the mouse. It’s a zero-footprint automation engine that brings modern AI intelligence to ancient, fragile systems without breaking a single IT rule.
-
-It’s secure. It's un-brickable. And it just works. Read on to find out how.
+- Solve a specific existing business problem. I don't hallucinate solutions to problems that don't exist.
+- Be secure, independent and governable with local LLMs. I'm not a fan of paying for tokens when a consumer-grade GPU can handle most business problems. I'm also not a fan of sending sensitive user data to some overseas data center.
+- Plug into existing infrastructure non-invasively. I don't want to disturb a carefully crafted IT ecosystem, nor do I want to create more problems by introducing an AI solution.

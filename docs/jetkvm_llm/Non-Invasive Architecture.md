@@ -2,7 +2,8 @@
 sidebar_label: 03 - Non-Invasive Architecture
 sidebar_position: 3
 ---
-![](title.jpeg)IT departments love saying no. It’s their default setting.
+![](../../static/img/title.jpeg)
+IT departments love saying no. It’s their default setting.
 
 And honestly, you can’t blame them. Security risks are everywhere, and the last thing they want is some unverified AI app crashing a critical enterprise machine. If you ask them to install a python environment on an air-gapped terminal, they will laugh you out of the room.
 
@@ -18,7 +19,7 @@ To the fragile legacy computer, the JetKVM looks exactly like a generic USB keyb
 
 #### The Hands (JetKVM)
 
-![](../static/img/IMG_20260529_033147.jpg)
+![](../../static/img/IMG_20260529_033147.jpg)
 
 The JetKVM translates those commands into hardware signals, which the target system considers to be coming from a local keyboard and mouse.
 
@@ -40,7 +41,8 @@ I tried writing my own Python OCR solution. I'm not a developer, so that didn't 
 
 Then I tried using the local LLM for OCR. While a local LLM model is highly impressive at recognizing image context and characters, it lacked the accuracy we needed to recognize spacial positions within the image.
 
-![](../blog/v2-llm-ocr-failure/testing.png)
+![](../../blog/v2-llm-ocr-failure/testing.png)
+
 *(First version was using a grid-overlay to help the LLM find its way around the image. Did NOT work.)*
 
 So I went with EasyOCR.
