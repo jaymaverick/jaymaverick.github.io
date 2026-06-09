@@ -1,5 +1,5 @@
 ---
-sidebar_label: 04 - The Automation Loop
+sidebar_label: The Automation Loop
 sidebar_position: 4
 ---
 <div className="video-container" style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%' }}>

@@ -11,14 +11,13 @@ const sidebars = {
       label: 'AI Safety Audit Engine',
       link: {
         type: 'doc',
-        id: 'jetkvm_llm/Introduction',
+        id: 'case_study2/AI Safety Audit Engine',
       },
       items: [
-        'jetkvm_llm/Introduction',
-        'jetkvm_llm/The Legacy Software Trap',
-        'jetkvm_llm/Non-Invasive Architecture',
-        'jetkvm_llm/The Automation Loop',
-        'jetkvm_llm/Future Strategy and Scale',
+        'case_study2/Ingestion First Architecture',
+        'case_study2/The Automation Loop',
+        'case_study2/Financials and Calculating ROI',
+        'case_study2/Future Strategy and Scale',
       ],
     },
     {
@@ -26,10 +25,9 @@ const sidebars = {
       label: 'AI Legacy Hardware Bridge',
       link: {
         type: 'doc',
-        id: 'jetkvm_llm/Introduction',
+        id: 'jetkvm_llm/AI Legacy Hardware Bridge',
       },
       items: [
-        'jetkvm_llm/Introduction',
         'jetkvm_llm/The Legacy Software Trap',
         'jetkvm_llm/Non-Invasive Architecture',
         'jetkvm_llm/The Automation Loop',

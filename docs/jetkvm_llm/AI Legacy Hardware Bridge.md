@@ -1,5 +1,5 @@
 ---
-sidebar_label: 01 - Introduction
+sidebar_label: AI Legacy Hardware Bridge
 sidebar_position: 1
 ---
 ![](../../static/img/enterprise-soft.jpeg)

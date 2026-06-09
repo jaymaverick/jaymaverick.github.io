@@ -1,5 +1,5 @@
 ---
-sidebar_label: 05 - Future Strategy and Scale
+sidebar_label: Future Strategy and Scale
 sidebar_position: 5
 ---
 ![](../../static/img/future-scale.jpeg)A great tech demo is a good start. But a tech demo that can't scale is just a hobby.

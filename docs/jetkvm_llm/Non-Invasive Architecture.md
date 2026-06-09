@@ -1,5 +1,5 @@
 ---
-sidebar_label: 03 - Non-Invasive Architecture
+sidebar_label: Non-Invasive Architecture
 sidebar_position: 3
 ---
 ![](../../static/img/title.jpeg)

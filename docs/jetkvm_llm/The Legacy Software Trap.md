@@ -1,5 +1,5 @@
 ---
-sidebar_label: 02 - The Legacy Software Trap
+sidebar_label: The Legacy Software Trap
 sidebar_position: 2
 ---
 ![](../../static/img/mercedes-epc.jpeg)
