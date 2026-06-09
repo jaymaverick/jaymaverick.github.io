@@ -26,7 +26,7 @@ const FeatureList = [
     imgSrc: '/img/sisyphus.jpeg',
     description: (
       <>
-        I don't just talk strategy. I bring receipts. Check out the [Case Studies](./docs/Introduction.md) to see exactly how my AI solutions fit into impossible enterprise constraints.
+        I don't just talk strategy. I bring receipts. Check out the <a href="/docs/Introduction">Case Studies</a> to see exactly how my AI solutions fit into impossible enterprise constraints.
       </>
     ),
   },
