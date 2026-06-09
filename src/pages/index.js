@@ -66,11 +66,11 @@ export default function Home() {
         <section style={{ padding: '4rem 0 2rem 0', textAlign: 'center' }}>
           <div className="container">
             <h2 style={{ fontSize: '2.0rem', maxWidth: '900px', margin: '0 auto', fontWeight: '700', lineHeight: '1.2' }}>
-              Secure and Accurate Local AI Solutions
+              Secure, Smart and Efficient Local AI Solutions
             </h2>
           </div>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '800px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            True AI integration goes beyond a fancy chatbot wrapper or forced CoPilot integration.
+            True AI integration goes beyond a fancy chatbot wrapper or forced CoPilot adoption.
           </p>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '700px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
             I bridge the gap between chaotic human input and corporate data infrastructure using local, cost-effective and secure AI models.
