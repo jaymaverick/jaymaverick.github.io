@@ -46,8 +46,8 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'case_study5/The AI Demographic Localizer',
-      label: 'The AI Demographic Localizer',
+      id: 'case_study5/AI Demographic Localizer',
+      label: 'AI Demographic Localizer',
     },
   ],
 };

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/case_study3/AI Legislation Update Agent.md",
+                "file": "docs/case_study5/AI Demographic Localizer.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AI Legislation Update Agent"
+              "title": "AI Demographic Localizer"
             }
           }
         ]
@@ -186,10 +186,10 @@
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
     "docs/case_study4/AI ERP Maintenance Matching Agent.md",
-    "docs/case_study5/The AI Demographic Localizer.md",
     "docs/case_study3/AI Legislation Update Agent.md",
-    "docs/case_study5",
+    "docs/case_study5/AI Demographic Localizer.md",
     "docs/case_study2/AI Safety Audit Engine.md",
+    "docs/case_study5",
     "docs/case_study2/Ingestion First Architecture.md",
     "docs/case_study4",
     "docs/case_study3",
