@@ -2,6 +2,8 @@
 sidebar_label: AI Legacy Hardware Bridge
 sidebar_position: 1
 ---
+# Case Study: AI Legacy Hardware Bridge
+
 ![](../../static/img/enterprise-soft.jpeg)
 
 ## The Absolute State of Enterprise Software in 2026

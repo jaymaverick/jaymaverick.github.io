@@ -2,6 +2,7 @@
 sidebar_label: The Automation Loop
 sidebar_position: 4
 ---
+# The Automation Loop
 <div className="video-container" style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%' }}>
   <iframe
     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
@@ -12,7 +13,7 @@ sidebar_position: 4
     allowFullScreen
   ></iframe>
 </div>
-## The Automation Loop
+
 
 While we use the LLM for interpretation and reasoning, the operational logic follows a strict and narrow path to the end goal. No improvisation or guesswork allowed.
 

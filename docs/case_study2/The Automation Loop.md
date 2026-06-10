@@ -2,8 +2,6 @@
 sidebar_label: The Automation Loop
 sidebar_position: 4
 ---
-
-
 # The Automation & Translation Loop
 
 Moving raw media from a mobile device to a file server is an elementary engineering problem. 

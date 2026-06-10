@@ -2,8 +2,8 @@
 sidebar_label: The Legacy Software Trap
 sidebar_position: 2
 ---
+# The Legacy Software Trap: Mercedes Xentry Service Software
 ![](../../static/img/mercedes-epc.jpeg)
-## Case Study: Mercedes-Benz EPC
 
 Ah, the Mercedes Electronic Parts Catalogue (EPC).
 

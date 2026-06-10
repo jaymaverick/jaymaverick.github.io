@@ -2,7 +2,7 @@
 sidebar_label: Case Studies - Start Here
 sidebar_position: 1
 ---
-
+# Case Studies
 On the left sidebar you'll see a list of my AI case studies.
 
 I design my AI solutions primarily to:

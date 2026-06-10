@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Case Studies.md",
+                "file": "docs/case_study5/AI Demographic Localizer.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Case Studies"
+              "title": "AI Demographic Localizer"
             }
           }
         ]
@@ -185,21 +185,24 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
+    "docs/jetkvm_llm/The Automation Loop.md",
+    "docs/jetkvm_llm/The Legacy Software Trap.md",
+    "docs/jetkvm_llm/AI Legacy Hardware Bridge.md",
+    "docs/case_study2/AI Safety Audit Engine.md",
+    "docs/Introduction.md",
+    "docs/case_study2/Ingestion First Architecture.md",
+    "docs/case_study2/The Automation Loop.md",
     "docs/case_study5/AI Demographic Localizer.md",
     "docs/case_study4/AI ERP Maintenance Matching Agent.md",
     "docs/case_study3/AI Legislation Update Agent.md",
-    "docs/case_study2/AI Safety Audit Engine.md",
     "docs/case_study5",
-    "docs/case_study2/Ingestion First Architecture.md",
     "docs/case_study4",
     "docs/case_study3",
-    "docs/case_study2/The Automation Loop.md",
     "docs/case_study2/Future Strategy and Scale.md",
     "docs/case_study2/Financials and Calculating ROI.md",
     "static/img/Safetum System Topology.png",
     "static/img/Safetum System Topology.pdf",
     "docs/jetkvm_llm/Future Strategy and Scale.md",
-    "docs/jetkvm_llm/AI Legacy Hardware Bridge.md",
     "node_modules/@emnapi/runtime/dist/emnapi.iife.js",
     "node_modules/@emnapi/runtime/dist/emnapi.esm-bundler.js",
     "node_modules/@emnapi/runtime/dist/emnapi.cjs.min.js",
@@ -219,9 +222,6 @@
     "node_modules/postcss-page-break/README.md",
     "node_modules/postcss-page-break/CHANGELOG.md",
     "node_modules/postcss-opacity-percentage/README.md",
-    "node_modules/postcss-opacity-percentage/LICENSE.md",
-    "node_modules/postcss-font-variant/README.md",
-    "node_modules/postcss-font-variant/CHANGELOG.md",
     "node_modules/detect-port-alt/logo.png",
     "static/img/enterprise-soft.jpeg",
     "static/img/title.jpeg",
