@@ -34,6 +34,21 @@ const sidebars = {
         'jetkvm_llm/Future Strategy and Scale',
       ],
     },
+    {
+      type: 'doc',
+      id: 'case_study3/AI Legislation Update Agent',
+      label: 'AI Legislation Update Agent',
+    },
+    {
+      type: 'doc',
+      id: 'case_study4/AI ERP Maintenance Matching Agent',
+      label: 'AI ERP Maintenance Matching Agent',
+    },
+    {
+      type: 'doc',
+      id: 'case_study5/The AI Demographic Localizer',
+      label: 'The AI Demographic Localizer',
+    },
   ],
 };
 
