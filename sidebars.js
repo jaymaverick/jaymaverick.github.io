@@ -3,8 +3,8 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'Introduction', // Points to case-studies/proptech-field-ingestion.md
-      label: 'Introduction to Case Studies'
+      id: 'Case Studies',
+      label: 'Case Studies - Start Here'
     },
     {
       type: 'category',
