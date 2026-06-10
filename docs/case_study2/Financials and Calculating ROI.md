@@ -3,11 +3,13 @@ sidebar_label: ROI and Core Financial Metrics
 sidebar_position: 3
 ---
 
-# Part 4: Financial Modeling & Core Metrics
+# Financial Modeling & Core Metrics
 
-To make a technical portfolio undeniably professional, an architectural blueprint cannot exist in a business vacuum. High-level technical decisions—like choosing localized asynchronous message queues over synchronous cloud requests—must be translated directly into financial impact.
+The "administrative tail" is not just an annoying software limitation. 
 
-The "administrative tail" is not just an annoying software limitation; it is a systemic, end-to-end operational bottleneck that bleeds corporate capital. Value is not created by an AI model sitting idly in a container. It is created when the orchestration framework fundamentally changes the human workflow, transforming it from a manual data back-keying task into a high-velocity, point-and-click exception review pipeline.
+It is a systemic, end-to-end operational bottleneck that bleeds corporate capital. 
+
+Value is not created by an AI model sitting idly in a container. It is created when the orchestration framework fundamentally changes the human workflow, transforming it from a manual data back-keying task into a high-velocity, point-and-click exception review pipeline.
 
 The equations below model the exact operational and financial delta between the legacy standard operating procedure (SOP) and this AI-augmented system framework.
 
@@ -45,9 +47,12 @@ $$E_{cap} = \frac{N \times (T_{legacy} - T_{field\_entry})}{H_{day}}$$
 - **$H_{day}$**: Standard billable field hours physically available per inspector day (typically 6 to 7 hours, factoring in structural transit and travel times between assets).
     
 
-> [!success] Commercial Outcome
-> 
-> This equation outputs the exact number of **reclaimed inspector days** created per month. By transforming field personnel back into pure auditors rather than manual data loggers, the business expands its operational throughput capacity. This allows leadership to scale top-line revenue and capture market share without expanding headcount or taking on additional payroll liability.
+:::success
+### Commercial Outcome
+
+This equation outputs the exact number of **reclaimed inspector days** created per month. By transforming field personnel back into pure auditors rather than manual data loggers, the business expands its operational throughput capacity. This allows leadership to scale top-line revenue and capture market share without expanding headcount or taking on additional payroll liability.
+
+:::
 
 ## 3. Pipeline Velocity & Latency Compression ($V_{latency}$)
 

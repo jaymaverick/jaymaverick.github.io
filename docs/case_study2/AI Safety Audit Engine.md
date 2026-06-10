@@ -4,7 +4,7 @@ domain: Real Estate Risk Compliance
 architecture: Ingestion-First / Multi-Modal Edge Inference
 status: Part 1 - Executive Summary & The Legacy Form Trap
 ---
-# Case Study: Removing Human Error From Automated Real Estate Safety Compliance
+# Case Study: AI Automated Real Estate Safety Compliance
 
 This case study was created to illustrate a realistic and practical use-case for AI in the Finnish property risk management industry.
 
