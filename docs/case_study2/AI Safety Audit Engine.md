@@ -14,23 +14,25 @@ Field inspectors handle high volumes of data, identifying an average of 15–17 
 
 ## Core Hypothesis
 
-Traditional data logging relies entirely on structured forms and rigid mobile application interfaces. This layout introduces a severe operational bottleneck known as the **"Administrative Tail."** 
+Traditional data logging relies entirely on structured forms and rigid mobile application interfaces. 
 
-Field specialists frequently bypass restrictive interface forms on-site due to environmental friction (operating in cold, low-light concrete basements, thick gloves, tiredness). 
+This layout introduces a severe operational bottleneck known as the **"Administrative Tail."** 
 
-Instead, they capture raw media on site, such as rapid smartphone photos and unstructured voice notes, while leaving all data-entry tasks to the end of the day. This double-handling of data creates a 48- to 72-hour operational lag, spikes burdened labor costs, and significantly delays client monetization opportunities.
+Field specialists frequently bypass restrictive interface forms on-site due to environmental friction (operating in cold, low-light concrete basements, thick gloves, tiredness). Instead, they capture raw media on site, such as rapid smartphone photos and unstructured voice notes, while leaving all data-entry tasks to the end of the day. 
 
-### Problem
+This double-handling of data creates a 48- to 72-hour operational lag, spikes burdened labor costs, and significantly delays client monetization opportunities.
+
+### Foundational Flaw
 
 The foundational flaw of existing property safety audit software is an architectural insistence on **synchronous structural entry**. Forcing a highly specialized field engineer to act as a manual data-entry clerk while navigating physical hazards compromises both data integrity and operational velocity.
 
-When an inspector is forced to manually navigate nested menus, select categorical checkboxes, and type remediation descriptions on-site, the software introduces a critical choice: compromise inspection thoroughness or expand administrative overhead. 
+When an inspector is forced to manually navigate nested menus, select categorical checkboxes, and type remediation descriptions on-site... they are faced with a critical but unwanted choice: compromise inspection thoroughness or expand administrative overhead. 
 
 In practice, operators choose the latter, creating a massive back-office bottleneck where hours are spent back-keying notes and matching media attachments to database keys.
 
 ### Solution & Architecture
 
-To break this bottleneck, the **Edge-AI Field Audit Engine** was designed around four non-negotiable architectural mandates:
+To break this bottleneck, I designed the **Edge-AI Field Audit Engine** around four non-negotiable architectural mandates:
 
 - **Zero-Friction Data Capture:** Reduce on-site data entry overhead to simple, native smartphone actions: capturing high-resolution visual evidence and speaking unstructured descriptive observations naturally in the local language (Finnish).
     
@@ -59,8 +61,12 @@ $$E_{\text{cap}} = \frac{N \times (T_{\text{legacy}} - T_{\text{field\_entry}})}
 
 #### III. Conversion Rate Optimization
 
-Automated client communications are upgraded from boilerplate text alerts into hyper-contextual, legally backed enrichment summaries. By automatically injecting the precise legislative violation (_Pelastuslaki 379/2011, 10 §_) and attaching cropped, AI-categorized visual proof directly to the notification payload, the client web portal drives an expected **35% increase** in immediate remediative service bookings (e.g., clearance or maintenance orders).
+Automated client communications are upgraded from boilerplate text alerts into hyper-contextual, legally backed enrichment summaries. 
+
+By automatically injecting the precise legislative violation (_Pelastuslaki 379/2011, 10 §_) and attaching cropped, AI-categorized visual proof directly to the notification payload, the client web portal drives an expected **35% increase** in immediate remediative service bookings (e.g., clearance or maintenance orders).
 
 #### IV. Data Integrity Gate
 
-Enforcing strict Pydantic schemas at the edge of the model boundary guarantees a **0% malformed write rate** to the production relational database. 100% of schema exceptions or formatting anomalies are cleanly arrested and routed to an internal Human-in-the-Loop (HITL) triage dashboard for rapid point-and-click authorization.
+Enforcing strict Pydantic schemas at the edge of the model boundary guarantees a **0% malformed write rate** to the production relational database. 
+
+100% of schema exceptions or formatting anomalies are cleanly arrested and routed to an internal Human-in-the-Loop (HITL) triage dashboard for rapid point-and-click authorization.

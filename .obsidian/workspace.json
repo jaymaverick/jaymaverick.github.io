@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/case_study2/Future Strategy and Scale.md",
+                "file": "docs/case_study2/AI Safety Audit Engine.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Future Strategy and Scale"
+              "title": "AI Safety Audit Engine"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "091cba1d192405c7",
   "lastOpenFiles": [
+    "docs/case_study2/Future Strategy and Scale.md",
     "docs/case_study2/Financials and Calculating ROI.md",
     "docs/case_study2/The Automation Loop.md",
     "docs/case_study2/AI Safety Audit Engine.md",
@@ -220,7 +221,6 @@
     "node_modules/postcss-clamp/README.md",
     "node_modules/postcss-clamp/INSTALL.md",
     "node_modules/cssdb/README.md",
-    "node_modules/cssdb/LICENSE.md",
     "node_modules/detect-port-alt/logo.png",
     "static/img/enterprise-soft.jpeg",
     "static/img/title.jpeg",
