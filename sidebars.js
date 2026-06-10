@@ -3,7 +3,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'Case Studies',
+      id: 'Introduction',
       label: 'Case Studies - Start Here'
     },
     {
