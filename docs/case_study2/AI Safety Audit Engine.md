@@ -10,7 +10,7 @@ This case study was created to illustrate a realistic and practical use-case for
 
 Full compliance with statutory safety mandates (such as the Finnish Pelastuslaki 379/2011) requires physical field audits across multi-family residential and commercial assets. 
 
-Field inspectors handle high volumes of data, identifying an average of 15–17 distinct hazards per property inspection (including egress obstructions, compromised fire barriers, and väestönsuoja deficiencies).
+Field inspectors handle high volumes of data, identifying 15-20 distinct hazards per property inspection (including egress obstructions, compromised fire barriers, and civil shelter/väestönsuoja deficiencies).
 
 ## Core Hypothesis
 

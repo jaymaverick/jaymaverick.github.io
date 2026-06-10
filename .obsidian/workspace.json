@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/case_study2/AI Safety Audit Engine.md",
+                "file": "docs/case_study2/Ingestion First Architecture.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AI Safety Audit Engine"
+              "title": "Ingestion First Architecture"
             }
           }
         ]
@@ -188,8 +188,10 @@
     "docs/case_study2/Future Strategy and Scale.md",
     "docs/case_study2/Financials and Calculating ROI.md",
     "docs/case_study2/The Automation Loop.md",
-    "docs/case_study2/AI Safety Audit Engine.md",
     "docs/case_study2/Ingestion First Architecture.md",
+    "static/img/Safetum System Topology.png",
+    "static/img/Safetum System Topology.pdf",
+    "docs/case_study2/AI Safety Audit Engine.md",
     "docs/jetkvm_llm/Future Strategy and Scale.md",
     "docs/jetkvm_llm/AI Legacy Hardware Bridge.md",
     "node_modules/@emnapi/runtime/dist/emnapi.iife.js",
@@ -201,7 +203,6 @@
     "node_modules/@tybys/wasm-util/lib/cjs",
     "node_modules/@napi-rs/wasm-runtime/dist",
     "node_modules/@tybys/wasm-util/lib",
-    "node_modules/@tybys/wasm-util",
     "node_modules/run-applescript/readme.md",
     "node_modules/default-browser-id/readme.md",
     "node_modules/bundle-name/readme.md",
@@ -220,7 +221,6 @@
     "node_modules/postcss-font-variant/CHANGELOG.md",
     "node_modules/postcss-clamp/README.md",
     "node_modules/postcss-clamp/INSTALL.md",
-    "node_modules/cssdb/README.md",
     "node_modules/detect-port-alt/logo.png",
     "static/img/enterprise-soft.jpeg",
     "static/img/title.jpeg",
@@ -229,7 +229,6 @@
     "docs/title.jpeg",
     "docs/mercedes-epc.jpeg",
     "docs/future-scale.jpeg",
-    "docs/enterprise-soft.jpeg",
-    "static/img/partslist.png"
+    "docs/enterprise-soft.jpeg"
   ]
 }

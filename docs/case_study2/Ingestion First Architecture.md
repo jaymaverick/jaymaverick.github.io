@@ -8,7 +8,7 @@ status: Part 2 - Ingestion-First Architecture
 ---
 # Ingestion-First Architecture
 
-The field operator is not a data entry clerk. Their job is to inspect and record, where "record" is a simple process that requires very little mental effort on location or after the fact.
+The field operator is not a data entry clerk. Their job is to inspect and record. Not micromanage databases or fiddle with shoddy webforms.
 
 In fact, the field operator shouldn't have to worry about what happens to the data after clicking "Send."
 
@@ -16,12 +16,12 @@ This is why we use an **Ingestion-First** framework. We decouple the physical fi
 
 Here's how.
 
-1. The field client captures data in its rawest, lowest-friction states: unstructured Finnish speech and rapid visual arrays.
-2. They dump it onto a hardened boundary. 
+1. The field client app captures data in its rawest, lowest-friction states: unstructured Finnish speech and rapid visual arrays.
+2. It dumps it onto a hardened boundary. 
 3. The system catches the payload.
 4. Our backend automation handle the structural heavy lifting.
 
-## 1. The Data Ingestion Boundary
+## The Data Ingestion Boundary
 
 The ingestion layer serves as a decoupled gateway. 
 
@@ -124,19 +124,7 @@ JSON
 }
 ```
 
-## 2. The n8n Webhook Gateway
-
-Mechanically, a self-hosted n8n webhook node is a custom HTTP endpoint running on your own servers to catch incoming event data from our Ingestion Boundary in real-time.
-
-To understand why this is a foundational piece for an AI Deployment Strategist, let's break it down into its three operational constraints:
-
-### I. The Webhook vs. Polling (The Mailbox)
-
-In traditional software, if an automation tool wants data from an upstream service, it has to constantly ask: _"Do you have new data yet? How about now?"_ This polling wastefully consumes massive amounts of computing power and creates artificial delays.
-
-A webhook flips this relationship completely. It acts as an event-driven "mailbox." The exact second the FastAPI ingestion boundary finishes writing the files and maps the Meta-UUID payload, it hits the unique n8n webhook URL. The node instantly wakes up, catches the ledger data packet, and passes it to the orchestration canvas.
-
-### II. The Orchestrator (The Traffic Cop)
+## The n8n Webhook Gateway
 
 n8n is an open-source workflow automation engine built for technical environments. 
 
@@ -155,14 +143,17 @@ In this pipeline, n8n acts as the central nervous system:
 
 ### III. Self-Hosting (The Data Privacy Shield)
 
-By self-hosting n8n inside a Docker container on isolated infrastructure (such as an air-gapped server or a secure local cloud node like atNorth), no data ever leaves our physical or legal control. The webhook URL points directly to our owned network perimeter. We gain the velocity of modern orchestration interfaces with a 100% airtight data privacy boundary.
+By self-hosting n8n inside a Docker container on isolated infrastructure (such as an air-gapped server or a secure local cloud node like atNorth), no data ever leaves our physical or legal control. 
 
-## 3. System Topology Flowchart
+The webhook URL points directly to our owned network perimeter. We gain the velocity of modern orchestration interfaces with a 100% airtight data privacy boundary.
 
-The following architectural layout maps how field assets change states sequentially across our isolated zones—moving safely from an unpredictable mobile app collection space to a hardened production data asset.
+## System Topology Flowchart
 
+The following architectural layout maps how field assets change states sequentially across our isolated zones: moving safely from an unpredictable mobile app collection space to a hardened production data asset.
 
-## 4. Architectural Walkthrough
+![](../../static/img/Safetum%20System%20Topology.png)
+
+## Architectural Walkthrough
 
 1. **Asynchronous Decoupling (The Ingestion Boundary):** The system explicitly rejects synchronous, blocking execution. The mobile client dumps raw field media into the lightweight `FastAPI Gateway`, which instantly persists files, logs tracking `Meta-UUIDs`, throws pointers into a `Redis Event Queue`, and drops the connection. The field inspector never waits on heavy model inference.
     
@@ -171,3 +162,67 @@ The following architectural layout maps how field assets change states sequentia
 3. **Strict Boundary Guardrails (The Structural Interface):** Volatile, probabilistic model completions are arrested at the model perimeter using `Pydantic` data structures and the `Instructor` library. Unparsed text strings are rejected by design; the system forces the neural network to output valid, structured data schemas matching our precise relational requirements.
     
 4. **Deterministic Exception Routing (Failsafe & HITL):** If an LLM drops tokens or fails Pydantic schema constraints, processing is suspended before touching relational tables. The record is flagged and automatically routed to an internal **Human-in-the-Loop (HITL) Triage Dashboard**, where a human reviewer can verify or adjust the entry with a single click before committing it to the production `PostgreSQL Database`.
+
+## The AI Quality Assurance & Evaluation Framework
+
+Unlike deterministic legacy codebases, non-deterministic neural networks cannot be validated using basic unit tests. 
+
+To guarantee the local Vision-Language Model does not hallucinate false legal assertions or drift in its categorical logic over time, the system implements a non-production evaluation and regression pipeline built using programmatic test harnesses (e.g., `DeepEval`).
+
+```
+                                    +-----------------------+
+                                    |  VLM Prompt/Weights   |
+                                    |     Modifications     |
+                                    +-----------+-----------+
+                                                |
+                                                v
++-----------------------+           +-----------+-----------+
+|  The Golden Dataset   |           |    Execution Engine   |
+| (100 Verified Assets) +---------->+  (Local Model Loop)   |
++-----------------------+           +-----------+-----------+
+                                                |
+                                                v
+                                    +-----------+-----------+
+                                    |    Evaluation Gate    |
+                                    | (DeepEval Harness)    |
+                                    +-----------+-----------+
+                                                |
+                               +----------------+----------------+
+                               |                                 |
+                               v                                 v
+                     [Schema Adherence]                 [Semantic F1-Score]
+                        Target: 100%                       Target: >= 0.91
+                               |                                 |
+                     +---------+---------+             +---------+---------+
+                     |                   |             |                   |
+                     v                   v             v                   v
+                  [ FAIL ]            [ PASS ]      [ FAIL ]            [ PASS ]
+                     |                   |             |                   |
+                     v                   |             v                   |
+             (Block Deployment)          +----->(Allow Production CI/CD Merge)
+```
+
+### The Golden Dataset
+
+The evaluation pipeline relies on a locked benchmarking suite consisting of **100 historical, hand-verified inspection media assets** ($50$ raw Finnish audio files, $50$ high-resolution hazard images). Each asset is mapped to an immutable, human-certified "Ground Truth" JSON target record that accurately references the true structural violations and legal clauses.
+
+### The Regression Testing Gate
+
+Prior to any production deployment, CI/CD pipeline merge, prompt modification, or local model weight update, the orchestration framework automatically feeds the Golden Dataset through the inference engine. The output payload strings are systematically evaluated against two core metrics:
+
+- **Schema Adherence Score:** The structure must achieve a **100% pass rate**. Any malformed JSON strings, missing brackets, or unmapped enum attributes cause an immediate build failure.
+    
+- **Semantic F1-Score:** The accuracy of the hazard type classification and legislative mapping must maintain a threshold of **$\ge 0.91$** against the Ground Truth dataset. If the model shifts its interpretation of a hazard incorrectly, the deployment is blocked automatically, preventing logic regressions from reaching production tables.
+    
+
+## Ingestion Border Security (Defensive Edge Hardening)
+
+Exposing a multipart/form-data endpoint to receive arbitrary file binaries creates an immediate attack vector for database flooding, remote code execution (RCE) attempts, and malicious server memory saturation. 
+
+To safeguard the private network perimeter, the FastAPI gateway implements three explicit defensive security filters:
+
+- **Token-Based Cryptographic Authentication:** The API perimeter enforces strict authentication checks on all incoming requests. The system parses and verifies cryptographically signed `Bearer JWT` (JSON Web Tokens) or pre-shared enterprise API keys injected directly into the HTTP header. Requests from unauthenticated clients are rejected at the edge before data buffers are opened.
+    
+- **Payload Bound Clamping (DoS Mitigation):** To prevent malicious Denial-of-Service attacks designed to exhaust disk and RAM allocations via massive file payloads, the FastAPI application layer checks the incoming `Content-Length` header. The gateway actively drops the connection if any single file stream buffer exceeds a rigid **15MB ceiling**.
+    
+- **Magic-Byte MIME-Type Whitelisting:** Attackers frequently attempt to disguise malicious scripts by spoofing basic file extensions (e.g., renaming an executable script to `evidence.jpg`). To mitigate this vector, the ingestion boundary bypasses basic string extension checks and evaluates the binary file's **magic-byte signatures** directly inside the buffer. The pipeline immediately drops any payload whose underlying structure fails to map to a verified whitelist: `audio/mpeg`, `audio/wav`, or `image/jpeg`.

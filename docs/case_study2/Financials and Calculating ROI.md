@@ -13,7 +13,7 @@ Value is not created by an AI model sitting idly in a container. It is created w
 
 The equations below model the exact operational and financial delta between the legacy standard operating procedure (SOP) and this AI-augmented system framework.
 
-## 1. Total Administrative Cost Reduction Engine ($\Delta C_{admin}$)
+## Total Administrative Cost Reduction Engine ($\Delta C_{admin}$)
 
 This metric measures the hard cash saved by the organization per month by transferring the manual text-generation and file-matching burden away from highly paid field engineers and over to the automated inference and data contract parsing layer.
 
@@ -34,7 +34,7 @@ $$\Delta C_{admin} = N \times \left[ (T_{legacy} \times R_{field}) - (T_{review}
 - **$C_{compute}$**: Total localized infrastructure amortization, hardware electricity, and maintenance overhead cost calculated per single pipeline execution loop.
     
 
-## 2. Operational Capacity Expansion ($E_{cap}$)
+## Operational Capacity Expansion ($E_{cap}$)
 
 This formula calculates exactly how many _additional_ revenue-generating physical asset inspections the company can execute dynamically per month now that their field staff is no longer trapped behind a desk doing evening paperwork.
 
@@ -54,7 +54,7 @@ This equation outputs the exact number of **reclaimed inspector days** created p
 
 :::
 
-## 3. Pipeline Velocity & Latency Compression ($V_{latency}$)
+## Pipeline Velocity & Latency Compression ($V_{latency}$)
 
 This equation maps the compression of system lifecycle timelines, proving how the architecture drastically shortens the operational window required to generate a structured, monetization-ready compliance asset for the customer.
 

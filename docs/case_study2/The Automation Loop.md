@@ -12,7 +12,7 @@ The true architectural challenge begins immediately afterward: **the cognitive o
 
 This phase maps out the design of the cognitive pipeline—the automated workflow, trade-off evaluations, and programmatic code boundaries that catch chaotic field telemetry and enforce clean, type-safe database schemas.
 
-## 1. The n8n Workflow Manifest (The DAG Sequence)
+## The n8n Workflow (The DAG Sequence)
 
 The orchestration layer is constructed as a self-hosted, event-driven **Directed Acyclic Graph (DAG)** running inside `n8n`. Rather than processing every compute step in a blocking, linear sequence, the workspace branches media operations into parallel processing threads. This reduces execution latency by up to 40%.
 
@@ -56,7 +56,7 @@ The orchestration layer is constructed as a self-hosted, event-driven **Directed
 - **Logic:** Takes the raw string completion block directly from the model perimeter and passes it into a validation script to confirm full data contract compliance.
     
 
-## 2. Infrastructure Trade-Off Matrix: Model Strategy Selection
+## Local LLM or Cloud AI
 
 Evaluating an AI deployment strategy requires navigating significant architecture trade-offs. An enterprise solutions engineer must thoroughly assess model hosting topologies against security, cost, and optimization constraints before deploying code to production.
 
