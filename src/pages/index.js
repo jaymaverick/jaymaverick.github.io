@@ -60,26 +60,26 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Jay Pitkänen - AI Deployment Strategist Portfolio">
+      description="Jay Pitkänen - AI Solutions Consultant Portfolio">
       <HomepageHeader />
       <main>
         <section style={{ padding: '4rem 0 2rem 0', textAlign: 'center' }}>
           <div className="container">
             <h2 style={{ fontSize: '2.0rem', maxWidth: '900px', margin: '0 auto', fontWeight: '700', lineHeight: '1.2' }}>
-              Secure, Smart and Efficient Local AI Solutions
+              Secure, Smart and Efficient AI Solutions
             </h2>
           </div>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '800px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            True AI integration goes beyond a fancy chatbot wrapper or forced CoPilot adoption.
+            Real AI integration goes beyond chatbot wrappers and forced tool adoption.
           </p>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '700px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            I bridge the gap between chaotic human input and corporate data infrastructure using local, cost-effective and secure AI models.
+            I design and implement workflow automation systems that turn messy, unstructured business operations into precise, reliable data pipelines. Using cloud AI, local models, or both.
           </p>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '800px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            You can reduce days of operational delays into minutes with closed-loop automation and <strong> ZERO </strong> recurring token fees. Turn real-world chaos into precise database structures with absolute compliance.
+            The result: operational delays measured in days become processes measured in minutes, with the compliance and security constraints your industry actually requires.            
           </p>
           <p style={{ fontSize: '1.2rem', color: 'var(--ifm-color-focus)', maxWidth: '800px', margin: '1.5rem auto 0 auto', lineHeight: '1.6', opacity: '0.9' }}>
-            <strong>Never rely on a foreign black box cloud AI again.</strong>
+            AI isn't a panacea. <strong>It's a precision instrument .</strong>
           </p>
         </section>
 
@@ -91,7 +91,7 @@ export default function Home() {
         <section style={{ padding: '1rem 0' }}>
           <div className="container" style={{ maxWidth: '800px' }}>
             <Heading as="h2" style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>
-              The Reality of Enterprise AI
+              How I Actually Work
             </Heading>
             <blockquote style={{ 
               fontSize: '1.1rem', 
@@ -103,7 +103,7 @@ export default function Home() {
               lineHeight: '1.6'
             }}>
               <p style={{ marginBottom: '1.5rem' }}>
-                Most AI projects fail because developers build for the cloud, but the real world runs on legacy infrastructure. 
+                Most AI projects fail because the solution ignores the reality of the business it's supposed to serve.
               </p>
               <p><strong>My operating rules are simple:</strong></p>
               <ul style={{ paddingLeft: '1.2rem' }}>
@@ -111,6 +111,7 @@ export default function Home() {
                 <li style={{ marginBottom: '0.5rem' }}><strong>Respect the IT department:</strong> Build sandboxed, zero-footprint tools that pass security audits on day one.</li>
                 <li><strong>Treat AI as the brain, not the body:</strong> Combine local models with hardware and basic automation to solve hyper-specific problems cleanly.</li>
               </ul>
+              <p>The goal isn't to force AI into your business. It's to find where AI removes a real bottleneck - and then build exactly that.</p>
             </blockquote>
           </div>
         </section>
@@ -131,7 +132,7 @@ export default function Home() {
               />
             </div>
             <div style={{ textAlign: 'center' }}>
-              <p style={{ margin: '0 0 1rem 0', color: '#4b5563' }}>Interested in Local AI automation?</p>
+              <p style={{ margin: '0 0 1rem 0', color: '#4b5563' }}>Need help with AI implementation?</p>
               <a href="https://www.linkedin.com/in/jaypitkanen/" style={{ fontSize: '1.1rem', fontWeight: '600', color: '#3B82F6', textDecoration: 'none' }}>
 <img src="/img/LI-In-Bug.png" alt="LinkedIn" style={{ width: '24px', height: '24px' }} />
               Connect With Me on LinkedIn &rarr;
@@ -140,59 +141,53 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{ padding: '2rem 0 5rem 0' }}>
-          <div className="container" style={{ maxWidth: '900px' }}>
-            <Heading as="h2" style={{ marginBottom: '2rem', textAlign: 'center', fontSize: '1.8rem' }}>
-              I Solve Local AI Problems
+        <section style={{ padding: '1rem 0' }}>
+          <div className="container" style={{ maxWidth: '800px' }}>
+            <Heading as="h2" style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>
+              I Solve Your AI Implementation Problems
             </Heading>
-            <div style={{ overflowX: 'auto', marginBottom: '2rem' }}>
-              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '1rem' }}>
-                <thead>
-                  <tr style={{ borderBottom: '2px solid var(--ifm-contents-border-color)' }}>
-                    <th style={{ padding: '12px', textAlign: 'left', width: '30%', fontWeight: '700' }}>If you are looking for...</th>
-                    <th style={{ padding: '12px', textAlign: 'left', fontWeight: '700' }}>Here is how I deliver...</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style={{ borderBottom: '1px solid var(--ifm-contents-border-color)' }}>
-                    <td style={{ padding: '24px 12px' }}><strong>Solutions Architect</strong></td>
-                    <td style={{ padding: '24px 12px', color: 'var(--ifm-color-emphasis-700)' }}>I map out the technical workflow, choose the right local or cloud stack, and prove the concept works without breaking existing systems.</td>
-                  </tr>
-                  <tr style={{ borderBottom: '1px solid var(--ifm-contents-border-color)' }}>
-                    <td style={{ padding: '24px 12px' }}><strong>AI Deployment Strategist</strong></td>
-                    <td style={{ padding: '24px 12px', color: 'var(--ifm-color-emphasis-700)' }}>I look at your operational costs, find where your humans are wasting time on legacy software, and build the business case for AI automation.</td>
-                  </tr>
-                  <tr style={{ borderBottom: 'none' }}>
-                    <td style={{ padding: '24px 12px' }}><strong>Product Designer</strong></td>
-                    <td style={{ padding: '24px 12px', color: 'var(--ifm-color-emphasis-700)' }}>I speak fluent engineer, but I think exclusively in business value, user experience, and risk mitigation.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <blockquote style={{
+              fontSize: '1.1rem',
+              fontStyle: 'normal',
+              borderLeft: '4px solid var(--ifm-color-primary)',
+              padding: '1.5rem',
+              backgroundColor: 'var(--ifm-background-color-neutral)',
+              borderRadius: '4px',
+              lineHeight: '1.6'
+            }}>
+              <p><strong>Not sure what to call what you need?</strong></p>
+              <p>That's fine. Here's how other people have described it:</p>
+              <ul style={{ paddingLeft: '1.2rem' }}>
+                <li style={{ marginBottom: '0.5rem' }}><strong>"We need someone to figure out what to build"</strong> I map the workflow, identify the friction points, choose the right stack, and prove the concept before you spend a dollar on scaling.</li>
+                <li style={{ marginBottom: '0.5rem' }}><strong>"We need someone to make the business case"</strong> I translate operational bottlenecks into ROI projections and build the case for AI automation in language your CFO and IT department can both act on.</li>
+                <li><strong>"We need someone who can speak engineer"</strong> I think in business value and user outcomes, but I can hand a developer a blueprint they can actually build from.</li>
+              </ul>
+              <p>The goal isn't to force AI into your business. It's to find where AI removes a real bottleneck - and then build exactly that.</p>
+            </blockquote>
           </div>
-         <div className={styles.buttons}>
+          <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/Introduction"
-            style={{ 
-              fontSize: '1.1rem', 
-              padding: '0.75rem 2rem',
-              backgroundColor: '#1394E6', 
-              borderColor: '#60A5FA',
-              color: '#ffffff',
-              fontWeight: '600'
-            }}
+          className="button button--secondary button--lg"
+          to="/docs/Introduction"
+          style={{
+            fontSize: '1.1rem',
+          padding: '0.75rem 2rem',
+          backgroundColor: '#1394E6',
+          borderColor: '#60A5FA',
+          color: '#ffffff',
+          fontWeight: '600'
+          }}
           >
-            My Case Studies
-            <svg style={{ marginLeft: '10px', width: '20px', height: '15px' }} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
+          My Case Studies
+          <svg style={{ marginLeft: '10px', width: '20px', height: '15px' }} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
           </Link>
-         </div>
+          </div>
         </section>
 
         {/* Section: Who is Jay? */}
-        <section style={{ marginTop: '0rem' }}>
+        <section style={{ marginTop: '2rem' }}>
           <div className="container" style={{ maxWidth: '800px' }}>
             <Heading as="h2" style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>
               Career Milestones and Highlights
