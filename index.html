@@ -1,3 +1,158 @@
-Click here
-<a href="https://jaymaverick.github.io/ai-solutions-consultant/">AI Solutions Consultant site</a>
-<a href="https://jaymaverick.github.io/technical-account-manager/">TAM site</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jay Pitkänen</title>
+<style>
+  :root {
+    --ink: #14181f;
+    --paper: #f7f7f5;
+    --line: #d8d8d3;
+    --accent: #2f5d50;
+    --muted: #6b6f76;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 6vh 6vw;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.5rem 0;
+  }
+
+  p.lede {
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.5;
+    margin: 0 0 3rem 0;
+    max-width: 46ch;
+  }
+
+  .paths {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+
+  @media (max-width: 640px) {
+    .paths { grid-template-columns: 1fr; }
+  }
+
+  a.card {
+    background: var(--paper);
+    padding: 2rem 1.75rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: background 0.15s ease;
+  }
+
+  a.card:hover {
+    background: #ffffff;
+  }
+
+  a.card:hover .arrow {
+    transform: translateX(3px);
+  }
+
+  .card .tag {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .card h2 {
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .card .desc {
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.45;
+    margin: 0;
+  }
+
+  .arrow {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: transform 0.15s ease;
+  }
+
+  footer {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Jay Pitkänen</div>
+    <h1>Two sides of the same work.</h1>
+    <p class="lede">I supporting technical customers and building the AI systems they rely on. Pick where you'd like to start.</p>
+
+    <div class="paths">
+      <a class="card" href="/technical-account-manager/">
+        <span class="tag">Primary</span>
+        <h2>Technical Account Management</h2>
+        <p class="desc">Customer-facing technical support, escalation ownership, and cross-functional delivery.</p>
+        <span class="arrow">View case studies →</span>
+      </a>
+
+      <a class="card" href="/ai-solutions-consultant/">
+        <span class="tag">Also</span>
+        <h2>AI Implementation Consulting</h2>
+        <p class="desc">Solution blueprints and applied AI case studies from independent consulting work.</p>
+        <span class="arrow">View case studies →</span>
+      </a>
+    </div>
+
+    <footer>jaymaverick.github.io</footer>
+  </div>
+</body>
+</html>
